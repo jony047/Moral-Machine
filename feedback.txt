@@ -1,0 +1,3317 @@
+============================================
+vis/result.rtx
+09:44:19_Tuesday_30_June_2020
+============================================
+Feedback:
+Your programs ("EthicalEngine.java" ) have been submitted successfully. 
+Compiling your programs with "javac"...
+============================================
+Here are our Junit tests for you:
+++Initializing Tests
+Test: enumeration <AgeCategory>
+Test: enumeration <BodyType>
+Test: enumeration <Gender>
+Test: enumeration <Profession>
+Test: abstract class <Character>
+Test: class <Person>
+Test: class <Animal>
+Test: class <Scenario>
+Test: class <ScenarioGenerator>
+Test: enumeration <Decision>
+Test: class <EthicalEngine>
+Test: class <Audit>
+toStringMethod(TestAudit): erroneous line 1 expected:<[======================================]> but was:<[no audit available]>
+--finished testing. Result:
+1 errors found. :(
+Your programs have been compiled successfully :-)
+Now, it's your responsibility to test your programs for correctness!
+Here are some public test cases, and the results:
+============================================
+Test for input file: public Test1
+Expected results:                                                       Your results:
+                   __-------__						                   __-------__
+                 / _---------_ \					                 / _---------_ \
+                / /           \ \					                / /           \ \
+                | |           | |					                | |           | |
+                |_|___________|_|					                |_|___________|_|
+            /-\|                 |/-\					            /-\|                 |/-\
+           | _ |\       0       /| _ |					           | _ |\       0       /| _ |
+           |(_)| \      !      / |(_)|					           |(_)| \      !      / |(_)|
+           |___|__\_____!_____/__|___|					           |___|__\_____!_____/__|___|
+           [_______|COMP90041|_______] 					           [_______|COMP90041|_______] 
+            ||||    ~~~~~~~~~    ||||					            ||||    ~~~~~~~~~    ||||
+            `--'                 `--'					            `--'                 `--'
+
+    $$\      $$\                              $$\                   	    $$\      $$\                              $$\                   
+    $$$\    $$$ |                             $$ |                  	    $$$\    $$$ |                             $$ |                  
+    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                  	    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                  
+    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                  	    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                  
+    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                  	    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                  
+    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                  	    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                  
+    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                  	    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                  
+    \__|     \__| \______/ \__|      \_______|\__|                  	    \__|     \__| \______/ \__|      \_______|\__|                  
+    $$\      $$\                     $$\       $$\                  	    $$\      $$\                     $$\       $$\                  
+    $$$\    $$$ |                    $$ |      \__|                 	    $$$\    $$$ |                    $$ |      \__|                 
+    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$	    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$
+    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$	    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$
+    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$	    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$
+    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   __	    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   __
+    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$	    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$
+    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_____	    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_____
+
+
+Welcome to Moral Machines! 						Welcome to Moral Machines! 
+    									    
+The idea of Moral Machines is based on the Trolley Dilemma, a fictio	The idea of Moral Machines is based on the Trolley Dilemma, a fictio
+
+The answers are not straightforward. There are a number of variables	The answers are not straightforward. There are a number of variables
+Do you consent to have your decisions saved to a file? (yes/no)		Do you consent to have your decisions saved to a file? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (3)								Passengers (3)
+- average adult doctor female						- average adult doctor female
+- overweight adult unknown male						- overweight adult unknown male
+- average baby female							- average baby female
+Pedestrians (4)								Pedestrians (4)
+- average senior male							- average senior male
+- average adult ceo female pregnant					- average adult ceo female pregnant
+- athletic child male							- athletic child male
+- dog is pet								- dog is pet
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (2)								Passengers (2)
+- average adult unknown female pregnant					- average adult unknown female pregnant
+- athletic adult criminal male						- athletic adult criminal male
+Pedestrians (4)								Pedestrians (4)
+- cat is pet								- cat is pet
+- bird									- bird
+- athletic adult doctor female						- athletic adult doctor female
+- average baby male							- average baby male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (1)								Passengers (1)
+- overweight senior male						- overweight senior male
+Pedestrians (5)								Pedestrians (5)
+- athletic child female							- athletic child female
+- athletic child male							- athletic child male
+- athletic child female							- athletic child female
+- athletic child female							- athletic child female
+- athletic child male							- athletic child male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 3 RUNS							- % SAVED AFTER 3 RUNS
+ceo: 1.0								ceo: 1.0
+child: 1.0								child: 1.0
+criminal: 1.0								criminal: 1.0
+dog: 1.0								dog: 1.0
+pregnant: 1.0								pregnant: 1.0
+athletic: 0.8								athletic: 0.8
+female: 0.6								female: 0.6
+male: 0.6								male: 0.6
+person: 0.6								person: 0.6
+adult: 0.5								adult: 0.5
+average: 0.5								average: 0.5
+green: 0.5								green: 0.5
+pet: 0.5								pet: 0.5
+red: 0.5								red: 0.5
+senior: 0.5								senior: 0.5
+unknown: 0.5								unknown: 0.5
+animal: 0.3								animal: 0.3
+baby: 0.0								baby: 0.0
+bird: 0.0								bird: 0.0
+cat: 0.0								cat: 0.0
+doctor: 0.0								doctor: 0.0
+overweight: 0.0								overweight: 0.0
+--									--
+average age: 24.6							average age: 24.6
+That's all. Press Enter to quit.					That's all. Press Enter to quit.
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: public Test2
+Expected results:                                                       Your results:
+                   __-------__						                   __-------__
+                 / _---------_ \					                 / _---------_ \
+                / /           \ \					                / /           \ \
+                | |           | |					                | |           | |
+                |_|___________|_|					                |_|___________|_|
+            /-\|                 |/-\					            /-\|                 |/-\
+           | _ |\       0       /| _ |					           | _ |\       0       /| _ |
+           |(_)| \      !      / |(_)|					           |(_)| \      !      / |(_)|
+           |___|__\_____!_____/__|___|					           |___|__\_____!_____/__|___|
+           [_______|COMP90041|_______] 					           [_______|COMP90041|_______] 
+            ||||    ~~~~~~~~~    ||||					            ||||    ~~~~~~~~~    ||||
+            `--'                 `--'					            `--'                 `--'
+
+    $$\      $$\                              $$\                   	    $$\      $$\                              $$\                   
+    $$$\    $$$ |                             $$ |                  	    $$$\    $$$ |                             $$ |                  
+    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                  	    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                  
+    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                  	    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                  
+    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                  	    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                  
+    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                  	    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                  
+    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                  	    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                  
+    \__|     \__| \______/ \__|      \_______|\__|                  	    \__|     \__| \______/ \__|      \_______|\__|                  
+    $$\      $$\                     $$\       $$\                  	    $$\      $$\                     $$\       $$\                  
+    $$$\    $$$ |                    $$ |      \__|                 	    $$$\    $$$ |                    $$ |      \__|                 
+    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$	    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$
+    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$	    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$
+    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$	    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$
+    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   __	    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   __
+    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$	    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$
+    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_____	    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_____
+
+
+Welcome to Moral Machines! 						Welcome to Moral Machines! 
+    									    
+The idea of Moral Machines is based on the Trolley Dilemma, a fictio	The idea of Moral Machines is based on the Trolley Dilemma, a fictio
+
+The answers are not straightforward. There are a number of variables	The answers are not straightforward. There are a number of variables
+Do you consent to have your decisions saved to a file? (yes/no)		Do you consent to have your decisions saved to a file? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (2)								Passengers (2)
+- cat									- cat
+- average senior male							- average senior male
+Pedestrians (4)								Pedestrians (4)
+- cat									- cat
+- average adult homeless male						- average adult homeless male
+- average adult homeless male						- average adult homeless male
+- average adult homeless female pregnant				- average adult homeless female pregnant
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (1)								Passengers (1)
+- average adult criminal male						- average adult criminal male
+Pedestrians (5)								Pedestrians (5)
+- athletic baby female							- athletic baby female
+- cat is pet								- cat is pet
+- athletic senior male							- athletic senior male
+- average child male							- average child male
+- average adult homeless female						- average adult homeless female
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (4)								Passengers (4)
+- average adult doctor female pregnant					- average adult doctor female pregnant
+- ferret								- ferret
+- overweight senior female						- overweight senior female
+- athletic senior male							- athletic senior male
+Pedestrians (4)								Pedestrians (4)
+- athletic adult doctor male						- athletic adult doctor male
+- athletic child male							- athletic child male
+- overweight adult homeless male					- overweight adult homeless male
+- dog									- dog
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 3 RUNS							- % SAVED AFTER 3 RUNS
+baby: 1.0								baby: 1.0
+ferret: 1.0								ferret: 1.0
+pet: 1.0								pet: 1.0
+senior: 1.0								senior: 1.0
+female: 0.8								female: 0.8
+animal: 0.6								animal: 0.6
+athletic: 0.6								athletic: 0.6
+cat: 0.6								cat: 0.6
+average: 0.5								average: 0.5
+child: 0.5								child: 0.5
+doctor: 0.5								doctor: 0.5
+green: 0.5								green: 0.5
+overweight: 0.5								overweight: 0.5
+person: 0.5								person: 0.5
+pregnant: 0.5								pregnant: 0.5
+male: 0.4								male: 0.4
+adult: 0.2								adult: 0.2
+homeless: 0.2								homeless: 0.2
+criminal: 0.0								criminal: 0.0
+dog: 0.0								dog: 0.0
+--									--
+average age: 55.5							average age: 55.5
+Would you like to continue? (yes/no)					Would you like to continue? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (3)								Passengers (3)
+- you average adult homeless male					- you average adult homeless male
+- overweight adult homeless female					- overweight adult homeless female
+- average adult ceo male						- average adult ceo male
+Pedestrians (3)								Pedestrians (3)
+- athletic adult unknown female						- athletic adult unknown female
+- average adult criminal female						- average adult criminal female
+- athletic adult unemployed female pregnant				- athletic adult unemployed female pregnant
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (4)								Passengers (4)
+- athletic adult ceo female pregnant					- athletic adult ceo female pregnant
+- overweight adult doctor female					- overweight adult doctor female
+- average senior male							- average senior male
+- athletic adult ceo female pregnant					- athletic adult ceo female pregnant
+Pedestrians (4)								Pedestrians (4)
+- athletic adult homeless female					- athletic adult homeless female
+- average adult homeless male						- average adult homeless male
+- average child male							- average child male
+- overweight adult unknown male						- overweight adult unknown male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (1)								Passengers (1)
+- you average senior female						- you average senior female
+Pedestrians (4)								Pedestrians (4)
+- athletic adult criminal female pregnant				- athletic adult criminal female pregnant
+- overweight adult unknown female pregnant				- overweight adult unknown female pregnant
+- overweight adult homeless male					- overweight adult homeless male
+- average senior female							- average senior female
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 6 RUNS							- % SAVED AFTER 6 RUNS
+baby: 1.0								baby: 1.0
+ferret: 1.0								ferret: 1.0
+pet: 1.0								pet: 1.0
+unemployed: 1.0								unemployed: 1.0
+senior: 0.7								senior: 0.7
+animal: 0.6								animal: 0.6
+cat: 0.6								cat: 0.6
+child: 0.6								child: 0.6
+unknown: 0.6								unknown: 0.6
+athletic: 0.5								athletic: 0.5
+average: 0.5								average: 0.5
+female: 0.5								female: 0.5
+red: 0.5								red: 0.5
+you: 0.5								you: 0.5
+green: 0.4								green: 0.4
+male: 0.4								male: 0.4
+person: 0.4								person: 0.4
+adult: 0.3								adult: 0.3
+criminal: 0.3								criminal: 0.3
+doctor: 0.3								doctor: 0.3
+homeless: 0.3								homeless: 0.3
+overweight: 0.2								overweight: 0.2
+pregnant: 0.2								pregnant: 0.2
+ceo: 0.0								ceo: 0.0
+dog: 0.0								dog: 0.0
+--									--
+average age: 46.7							average age: 46.7
+Would you like to continue? (yes/no)					Would you like to continue? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (5)								Passengers (5)
+- athletic adult unemployed female pregnant				- athletic adult unemployed female pregnant
+- athletic adult doctor female pregnant					- athletic adult doctor female pregnant
+- ferret								- ferret
+- ferret								- ferret
+- ferret is pet								- ferret is pet
+Pedestrians (1)								Pedestrians (1)
+- athletic senior female						- athletic senior female
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (4)								Passengers (4)
+- athletic senior male							- athletic senior male
+- ferret is pet								- ferret is pet
+- average adult criminal female						- average adult criminal female
+- overweight adult unemployed female pregnant				- overweight adult unemployed female pregnant
+Pedestrians (5)								Pedestrians (5)
+- athletic adult ceo male						- athletic adult ceo male
+- athletic adult unemployed female pregnant				- athletic adult unemployed female pregnant
+- ferret								- ferret
+- average adult homeless male						- average adult homeless male
+- overweight baby male							- overweight baby male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (2)								Passengers (2)
+- athletic adult unknown female						- athletic adult unknown female
+- overweight senior male						- overweight senior male
+Pedestrians (2)								Pedestrians (2)
+- average adult unknown male						- average adult unknown male
+- overweight adult homeless female					- overweight adult homeless female
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 9 RUNS							- % SAVED AFTER 9 RUNS
+pet: 1.0								pet: 1.0
+ferret: 0.8								ferret: 0.8
+animal: 0.7								animal: 0.7
+unemployed: 0.7								unemployed: 0.7
+cat: 0.6								cat: 0.6
+child: 0.6								child: 0.6
+red: 0.6								red: 0.6
+senior: 0.6								senior: 0.6
+unknown: 0.6								unknown: 0.6
+athletic: 0.5								athletic: 0.5
+average: 0.5								average: 0.5
+baby: 0.5								baby: 0.5
+criminal: 0.5								criminal: 0.5
+doctor: 0.5								doctor: 0.5
+female: 0.5								female: 0.5
+you: 0.5								you: 0.5
+adult: 0.4								adult: 0.4
+green: 0.4								green: 0.4
+person: 0.4								person: 0.4
+pregnant: 0.4								pregnant: 0.4
+homeless: 0.3								homeless: 0.3
+male: 0.3								male: 0.3
+overweight: 0.3								overweight: 0.3
+ceo: 0.0								ceo: 0.0
+dog: 0.0								dog: 0.0
+--									--
+average age: 44.7							average age: 44.7
+Would you like to continue? (yes/no)					Would you like to continue? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (3)								Passengers (3)
+- dog									- dog
+- athletic senior male							- athletic senior male
+- average senior male							- average senior male
+Pedestrians (4)								Pedestrians (4)
+- you overweight child female						- you overweight child female
+- average adult unemployed male						- average adult unemployed male
+- average adult ceo female						- average adult ceo female
+- average senior male							- average senior male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 10 RUNS							- % SAVED AFTER 10 RUNS
+pet: 1.0								pet: 1.0
+ferret: 0.8								ferret: 0.8
+animal: 0.7								animal: 0.7
+cat: 0.6								cat: 0.6
+red: 0.6								red: 0.6
+senior: 0.6								senior: 0.6
+unemployed: 0.6								unemployed: 0.6
+unknown: 0.6								unknown: 0.6
+athletic: 0.5								athletic: 0.5
+baby: 0.5								baby: 0.5
+child: 0.5								child: 0.5
+criminal: 0.5								criminal: 0.5
+doctor: 0.5								doctor: 0.5
+dog: 0.5								dog: 0.5
+female: 0.5								female: 0.5
+adult: 0.4								adult: 0.4
+average: 0.4								average: 0.4
+green: 0.4								green: 0.4
+male: 0.4								male: 0.4
+person: 0.4								person: 0.4
+pregnant: 0.4								pregnant: 0.4
+homeless: 0.3								homeless: 0.3
+overweight: 0.3								overweight: 0.3
+you: 0.3								you: 0.3
+ceo: 0.0								ceo: 0.0
+--									--
+average age: 48.4							average age: 48.4
+That's all. Press Enter to quit.					That's all. Press Enter to quit.
+Your results seem to be CORRECT :-).
+============================================
+Test for input file: public Test3
+Expected results:                                                       Your results:
+WARNING: invalid data format in config file in line 3			WARNING: invalid data format in config file in line 3
+WARNING: invalid data format in config file in line 22			WARNING: invalid data format in config file in line 22
+                   __-------__						                   __-------__
+                 / _---------_ \					                 / _---------_ \
+                / /           \ \					                / /           \ \
+                | |           | |					                | |           | |
+                |_|___________|_|					                |_|___________|_|
+            /-\|                 |/-\					            /-\|                 |/-\
+           | _ |\       0       /| _ |					           | _ |\       0       /| _ |
+           |(_)| \      !      / |(_)|					           |(_)| \      !      / |(_)|
+           |___|__\_____!_____/__|___|					           |___|__\_____!_____/__|___|
+           [_______|COMP90041|_______] 					           [_______|COMP90041|_______] 
+            ||||    ~~~~~~~~~    ||||					            ||||    ~~~~~~~~~    ||||
+            `--'                 `--'					            `--'                 `--'
+
+    $$\      $$\                              $$\                   	    $$\      $$\                              $$\                   
+    $$$\    $$$ |                             $$ |                  	    $$$\    $$$ |                             $$ |                  
+    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                  	    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                  
+    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                  	    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                  
+    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                  	    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                  
+    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                  	    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                  
+    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                  	    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                  
+    \__|     \__| \______/ \__|      \_______|\__|                  	    \__|     \__| \______/ \__|      \_______|\__|                  
+    $$\      $$\                     $$\       $$\                  	    $$\      $$\                     $$\       $$\                  
+    $$$\    $$$ |                    $$ |      \__|                 	    $$$\    $$$ |                    $$ |      \__|                 
+    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$	    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$
+    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$	    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$
+    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$	    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$
+    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   __	    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   __
+    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$	    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$
+    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_____	    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_____
+
+
+Welcome to Moral Machines! 						Welcome to Moral Machines! 
+    									    
+The idea of Moral Machines is based on the Trolley Dilemma, a fictio	The idea of Moral Machines is based on the Trolley Dilemma, a fictio
+
+The answers are not straightforward. There are a number of variables	The answers are not straightforward. There are a number of variables
+Do you consent to have your decisions saved to a file? (yes/no)		Do you consent to have your decisions saved to a file? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (1)								Passengers (1)
+- average child male							- average child male
+Pedestrians (5)								Pedestrians (5)
+- average adult unknown female pregnant					- average adult unknown female pregnant
+- overweight adult ceo male						- overweight adult ceo male
+- athletic adult unemployed female pregnant				- athletic adult unemployed female pregnant
+- average senior female							- average senior female
+- athletic adult criminal male						- athletic adult criminal male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (1)								Passengers (1)
+- overweight adult doctor male						- overweight adult doctor male
+Pedestrians (6)								Pedestrians (6)
+- you overweight adult homeless female pregnant				- you overweight adult homeless female pregnant
+- athletic child female							- athletic child female
+- overweight baby male							- overweight baby male
+- overweight senior male						- overweight senior male
+- overweight adult ceo female pregnant					- overweight adult ceo female pregnant
+- dog is pet								- dog is pet
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (4)								Passengers (4)
+- you overweight senior male						- you overweight senior male
+- overweight adult doctor female pregnant				- overweight adult doctor female pregnant
+- average adult homeless female pregnant				- average adult homeless female pregnant
+- ferret is pet								- ferret is pet
+Pedestrians (6)								Pedestrians (6)
+- dog is pet								- dog is pet
+- cat is pet								- cat is pet
+- athletic child male							- athletic child male
+- average adult criminal female pregnant				- average adult criminal female pregnant
+- athletic adult homeless female pregnant				- athletic adult homeless female pregnant
+- overweight adult unknown female					- overweight adult unknown female
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 3 RUNS							- % SAVED AFTER 3 RUNS
+cat: 1.0								cat: 1.0
+child: 0.6								child: 0.6
+animal: 0.5								animal: 0.5
+criminal: 0.5								criminal: 0.5
+doctor: 0.5								doctor: 0.5
+dog: 0.5								dog: 0.5
+pet: 0.5								pet: 0.5
+unknown: 0.5								unknown: 0.5
+athletic: 0.4								athletic: 0.4
+average: 0.4								average: 0.4
+green: 0.4								green: 0.4
+adult: 0.3								adult: 0.3
+homeless: 0.3								homeless: 0.3
+male: 0.3								male: 0.3
+person: 0.3								person: 0.3
+female: 0.2								female: 0.2
+overweight: 0.2								overweight: 0.2
+pregnant: 0.2								pregnant: 0.2
+red: 0.1								red: 0.1
+baby: 0.0								baby: 0.0
+ceo: 0.0								ceo: 0.0
+ferret: 0.0								ferret: 0.0
+senior: 0.0								senior: 0.0
+unemployed: 0.0								unemployed: 0.0
+you: 0.0								you: 0.0
+--									--
+average age: 41.0							average age: 41.0
+Would you like to continue? (yes/no)					Would you like to continue? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (1)								Passengers (1)
+- average senior male							- average senior male
+Pedestrians (3)								Pedestrians (3)
+- athletic adult doctor female pregnant					- athletic adult doctor female pregnant
+- ferret is pet								- ferret is pet
+- athletic senior male							- athletic senior male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (5)								Passengers (5)
+- ferret								- ferret
+- athletic child male							- athletic child male
+- overweight adult ceo female						- overweight adult ceo female
+- average adult doctor female						- average adult doctor female
+- average child female							- average child female
+Pedestrians (4)								Pedestrians (4)
+- ferret								- ferret
+- you athletic adult unknown male					- you athletic adult unknown male
+- athletic child male							- athletic child male
+- average senior male							- average senior male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (1)								Passengers (1)
+- overweight senior female						- overweight senior female
+Pedestrians (4)								Pedestrians (4)
+- average baby female							- average baby female
+- average adult ceo female						- average adult ceo female
+- athletic senior male							- athletic senior male
+- average senior male							- average senior male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 6 RUNS							- % SAVED AFTER 6 RUNS
+cat: 1.0								cat: 1.0
+doctor: 0.7								doctor: 0.7
+child: 0.6								child: 0.6
+pet: 0.6								pet: 0.6
+animal: 0.5								animal: 0.5
+athletic: 0.5								athletic: 0.5
+average: 0.5								average: 0.5
+baby: 0.5								baby: 0.5
+ceo: 0.5								ceo: 0.5
+criminal: 0.5								criminal: 0.5
+dog: 0.5								dog: 0.5
+female: 0.5								female: 0.5
+ferret: 0.5								ferret: 0.5
+green: 0.5								green: 0.5
+adult: 0.4								adult: 0.4
+male: 0.4								male: 0.4
+person: 0.4								person: 0.4
+red: 0.4								red: 0.4
+homeless: 0.3								homeless: 0.3
+pregnant: 0.3								pregnant: 0.3
+senior: 0.3								senior: 0.3
+unknown: 0.3								unknown: 0.3
+overweight: 0.2								overweight: 0.2
+unemployed: 0.0								unemployed: 0.0
+you: 0.0								you: 0.0
+--									--
+average age: 43.8							average age: 43.8
+Would you like to continue? (yes/no)					Would you like to continue? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (2)								Passengers (2)
+- overweight adult unemployed female pregnant				- overweight adult unemployed female pregnant
+- overweight adult unknown male						- overweight adult unknown male
+Pedestrians (7)								Pedestrians (7)
+- dog									- dog
+- average adult criminal female pregnant				- average adult criminal female pregnant
+- average adult criminal male						- average adult criminal male
+- athletic senior male							- athletic senior male
+- average senior female							- average senior female
+- overweight adult unknown female pregnant				- overweight adult unknown female pregnant
+- average adult unemployed male						- average adult unemployed male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (7)								Passengers (7)
+- overweight adult ceo male						- overweight adult ceo male
+- ferret is pet								- ferret is pet
+- average senior male							- average senior male
+- average adult doctor female pregnant					- average adult doctor female pregnant
+- dog									- dog
+- athletic adult ceo female pregnant					- athletic adult ceo female pregnant
+- average adult homeless female						- average adult homeless female
+Pedestrians (4)								Pedestrians (4)
+- ferret is pet								- ferret is pet
+- dog is pet								- dog is pet
+- athletic adult unemployed female					- athletic adult unemployed female
+- dog									- dog
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: no							Legal Crossing: no
+Passengers (3)								Passengers (3)
+- cat is pet								- cat is pet
+- ferret is pet								- ferret is pet
+- athletic senior male							- athletic senior male
+Pedestrians (4)								Pedestrians (4)
+- overweight adult unknown female					- overweight adult unknown female
+- average child male							- average child male
+- athletic senior male							- athletic senior male
+- average adult ceo male						- average adult ceo male
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 9 RUNS							- % SAVED AFTER 9 RUNS
+cat: 1.0								cat: 1.0
+criminal: 0.7								criminal: 0.7
+pet: 0.7								pet: 0.7
+animal: 0.6								animal: 0.6
+doctor: 0.6								doctor: 0.6
+dog: 0.6								dog: 0.6
+athletic: 0.5								athletic: 0.5
+average: 0.5								average: 0.5
+baby: 0.5								baby: 0.5
+child: 0.5								child: 0.5
+ferret: 0.5								ferret: 0.5
+green: 0.5								green: 0.5
+unemployed: 0.5								unemployed: 0.5
+adult: 0.4								adult: 0.4
+female: 0.4								female: 0.4
+male: 0.4								male: 0.4
+person: 0.4								person: 0.4
+red: 0.4								red: 0.4
+senior: 0.4								senior: 0.4
+pregnant: 0.3								pregnant: 0.3
+unknown: 0.3								unknown: 0.3
+ceo: 0.2								ceo: 0.2
+homeless: 0.2								homeless: 0.2
+overweight: 0.2								overweight: 0.2
+you: 0.0								you: 0.0
+--									--
+average age: 47.7							average age: 47.7
+Would you like to continue? (yes/no)					Would you like to continue? (yes/no)
+======================================					======================================
+# Scenario								# Scenario
+======================================					======================================
+Legal Crossing: yes							Legal Crossing: yes
+Passengers (3)								Passengers (3)
+- dog									- dog
+- cat is pet								- cat is pet
+- overweight adult ceo female						- overweight adult ceo female
+Pedestrians (4)								Pedestrians (4)
+- dog is pet								- dog is pet
+- overweight senior female						- overweight senior female
+- average senior female							- average senior female
+- athletic adult doctor female pregnant					- athletic adult doctor female pregnant
+Who should be saved? (passenger(s) [1] or pedestrian(s) [2])		Who should be saved? (passenger(s) [1] or pedestrian(s) [2])
+======================================					======================================
+# User Audit								# User Audit
+======================================					======================================
+- % SAVED AFTER 10 RUNS							- % SAVED AFTER 10 RUNS
+cat: 1.0								cat: 1.0
+criminal: 0.7								criminal: 0.7
+animal: 0.6								animal: 0.6
+dog: 0.6								dog: 0.6
+pet: 0.6								pet: 0.6
+athletic: 0.5								athletic: 0.5
+average: 0.5								average: 0.5
+baby: 0.5								baby: 0.5
+child: 0.5								child: 0.5
+doctor: 0.5								doctor: 0.5
+ferret: 0.5								ferret: 0.5
+green: 0.5								green: 0.5
+unemployed: 0.5								unemployed: 0.5
+adult: 0.4								adult: 0.4
+female: 0.4								female: 0.4
+male: 0.4								male: 0.4
+person: 0.4								person: 0.4
+red: 0.4								red: 0.4
+ceo: 0.3								ceo: 0.3
+pregnant: 0.3								pregnant: 0.3
+senior: 0.3								senior: 0.3
+unknown: 0.3								unknown: 0.3
+homeless: 0.2								homeless: 0.2
+overweight: 0.2								overweight: 0.2
+you: 0.0								you: 0.0
+--									--
+average age: 47.8							average age: 47.8
+That's all. Press Enter to quit.					That's all. Press Enter to quit.
+Your results seem to be CORRECT :-).
+============================================
+src/ethicalengine.txt
+09:44:16_Tuesday_30_June_2020
+============================================
+Animal.java
+Character.java
+Person.java
+Scenario.java
+ScenarioGenerator.java
+Statistics.java
+============================================
+src/ScenarioGenerator.java
+09:44:16_Tuesday_30_June_2020
+============================================
+package ethicalengine;
+import java.util.ArrayList;
+import java.util.Random;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class ScenarioGenerator {
+
+    public static final int DEFAULT_SEED_HELPER = 100000;
+    private  int AGE_LIMIT_PERSON = 110;
+    private  int AGE_LIMIT_ANIMAL = 15;
+
+    private int passengerCountMinimum;
+    private int passengerCountMaximum;
+    private int pedestrianCountMinimum;
+    private int pedestrianCountMaximum;
+    private long seed;
+    Random r = new Random();
+
+    /**
+     * Default Constructor setting seed to a random number
+     */
+
+    public ScenarioGenerator(){
+        r.setSeed((long)Math.floor(Math.random()*DEFAULT_SEED_HELPER));
+        passengerCountMinimum = 1;
+        passengerCountMaximum = 5;
+        pedestrianCountMinimum = 1;
+        pedestrianCountMaximum = 5;
+    }
+
+    /**
+     * set seed value to a predefined value
+     * @param seed long
+     *
+     */
+    public ScenarioGenerator(long seed){
+        this.seed = seed;
+    }
+
+    public long getSeed(){
+        return this.seed;
+    }
+
+    /**
+     *
+     * Constructor to set seed and other min/max values
+     * @param seed long
+     * @param passengerCountMinimum int
+     * @param passengerCountMaximum int
+     * @param pedestrianCountMinimum int
+     * @param pedestrianCountMaximum int
+     *
+     */
+    public ScenarioGenerator(long seed, int passengerCountMinimum, int passengerCountMaximum, int pedestrianCountMinimum, int pedestrianCountMaximum){
+        this.seed = seed;
+        this.passengerCountMaximum = passengerCountMaximum;
+        this.passengerCountMinimum = passengerCountMinimum;
+        this.pedestrianCountMinimum = pedestrianCountMinimum;
+        this.pedestrianCountMaximum = pedestrianCountMaximum;
+
+    }
+
+    /**
+     * set passenger counts to min value
+     * @param min int
+     *
+     */
+    public void setPassengerCountMin(int min){
+        if (min > passengerCountMaximum)
+            passengerCountMinimum = 1;
+        else
+            passengerCountMinimum = min;
+    }
+
+    /**
+     * set pedestrian counts to min value
+     * @param min int
+     *
+     */
+    public void setPedestrianCountMin(int min){
+        if ( min > pedestrianCountMaximum )
+            pedestrianCountMinimum = 1;
+        else
+            pedestrianCountMinimum = min;
+    }
+
+    /**
+     * set passenger counts to max value
+     * @param max int
+     *
+     */
+    public void setPassengerCountMax(int max){
+        passengerCountMaximum = max;
+    }
+    /**
+     * set pedestrian counts to max value
+     * @param max int
+     *
+     */
+    public void setPedestrianCountMax(int max){
+        pedestrianCountMaximum = max;
+    }
+
+    /**
+     * getting a new Person
+     * @return Person
+     */
+
+    public Person getRandomPerson(){
+
+        int age;
+        r.setSeed(r.nextLong());
+        age = r.nextInt(AGE_LIMIT_PERSON)+1;
+        boolean isPregnant = r.nextBoolean();
+
+        Character.Gender gender = Character.Gender.getGender(r.nextInt(Character.Gender.values().length));
+        Person.Profession profession = Person.Profession.getProfession(r.nextInt(Person.Profession.values().length));
+        Character.BodyType bodyType = Character.BodyType.getBodyType(r.nextInt(Character.BodyType.values().length));
+
+        return new Person(age, profession, gender, bodyType, isPregnant);
+    }
+
+    /**
+     * Getting a new animal
+     * @return Animal
+     */
+
+    public Animal getRandomAnimal(){
+        ArrayList<String> animalList = new ArrayList<>();
+        animalList.add("cat");
+        animalList.add("dog");
+        animalList.add("bird");
+        animalList.add("rabbit");
+        animalList.add("ferret");
+
+        r.setSeed(r.nextLong());
+
+        int age = r.nextInt(AGE_LIMIT_ANIMAL);
+        Character.Gender gender = Character.Gender.getGender(r.nextInt(Character.Gender.values().length));
+        Character.BodyType bodyType = Character.BodyType.getBodyType(r.nextInt(Character.Gender.values().length));
+
+        int rand = r.nextInt(animalList.size());
+        boolean isPet = r.nextBoolean();
+        Animal animal = new Animal(animalList.get(rand));
+        animal.setPet(isPet);
+        return animal;
+    }
+
+    /**
+     * new Scenario to be generated
+     * @return Scenario
+     */
+
+
+    public Scenario generate(){
+
+        Scenario scenario = new Scenario();
+
+        //r.setSeed(this.seed);
+
+        boolean hasYouInCar = false;
+        boolean hasYouInLane = false;
+
+
+        boolean isLegalCrossing = r.nextBoolean();
+        scenario.setLegalCrossing(isLegalCrossing);
+
+        int personInCar, animalInCar, totalPassengers, youIndex;
+
+        totalPassengers = r.nextInt(passengerCountMaximum - passengerCountMinimum + 1) + passengerCountMinimum;
+        personInCar = r.nextInt(totalPassengers - passengerCountMinimum + 1) + passengerCountMinimum;
+        animalInCar = totalPassengers - personInCar;
+
+        ArrayList<Character> myPassengers = new ArrayList<>();
+
+        for (int i=0; i<personInCar;i++){
+            myPassengers.add(getRandomPerson());
+        }
+        for (int i=0; i<animalInCar;i++){
+            myPassengers.add(getRandomAnimal());
+        }
+
+        int personInLane,animalInLane,totalPedestrians;
+
+        totalPedestrians = r.nextInt(pedestrianCountMaximum - pedestrianCountMinimum + 1) + pedestrianCountMinimum;
+        personInLane = r.nextInt(totalPedestrians - pedestrianCountMinimum + 1) + pedestrianCountMinimum;
+        animalInLane = totalPedestrians - personInLane;
+
+        ArrayList<Character> myPedestrians = new ArrayList<>();
+        for (int i=0; i<personInLane;i++)
+            myPedestrians.add(getRandomPerson());
+        for (int i=0; i<animalInLane;i++)
+            myPedestrians.add(getRandomAnimal());
+
+        //get isYou randomly
+
+        boolean isYou = r.nextBoolean();
+
+        if (isYou){
+            hasYouInCar = r.nextBoolean();
+            hasYouInLane = !hasYouInCar;
+        }
+
+        if (hasYouInCar && personInCar > 0 ){
+            youIndex = r.nextInt(personInCar);
+            Person person;
+            person = (Person) myPassengers.get(youIndex);
+            person.setAsYou(hasYouInCar);
+        }
+
+        if (hasYouInLane && personInLane > 0){
+            youIndex = r.nextInt(personInLane);
+            Person person;
+            person = (Person) myPedestrians.get(youIndex);
+            person.setAsYou(hasYouInLane);
+        }
+
+        //two new Character array for passengers and pedestrians
+
+        Character[] passengers = new Character[myPassengers.size()];
+        Character[] pedestrian = new Character[myPedestrians.size()];
+
+        //copy both passenger and pedestrian array list to array
+
+        myPassengers.toArray(passengers);
+        myPedestrians.toArray(pedestrian);
+
+        return new Scenario(passengers,pedestrian,isLegalCrossing);
+
+    }
+}
+============================================
+src/EthicalEngine.java
+09:44:16_Tuesday_30_June_2020
+============================================
+
+
+import ethicalengine.*;
+import ethicalengine.Character;
+import java.io.*;
+import java.util.*;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class EthicalEngine {
+    public static Scanner keyboard = new Scanner(System.in);
+    public static int ALGORITHM_AUDIT_DEFAULT_MAX = 100;
+    public static int USER_AUDIT_DEFAULT_MAX = 1000;
+    public boolean DEFAULT_BOOLEAN = false;
+
+
+    /**
+     * Enumeration Decision
+     */
+    public enum Decision {
+        PASSENGERS,
+        PEDESTRIANS;
+    }
+
+    /**
+     * Main method, entry to program taking args as input to run several scenarios as per specification
+     * @param args (input command as arguments to drive the program)
+     */
+
+    public static void main(String[] args) {
+        EthicalEngine ethicalEngine = new EthicalEngine();
+        ArrayList<Scenario> configFileScenario;
+
+
+        String command = "",configFilePath="",configFlag="", resultFileFlag="", resultFilePath ="";
+
+        //if args comes with -c or --config and -i or --interactive.
+        // -c flag must follow with a path
+        // -i and -c flag is interchangeable
+        // (-c path -i) is valid but (-c -i path) is invalid
+
+        if (!Arrays.toString(args).contains("-r") || !Arrays.toString(args).contains("--results") ){
+            if (args.length == 1){
+                command = args[0];
+            }
+            if (args.length == 2){
+                command = args[0];
+                configFilePath = args[1];
+            }
+            if (args.length == 3){
+                if (args[0].equals("-i") || args[0].equals("--interactive")){
+                    command = args[0];
+                    configFlag = args[1];
+                    configFilePath = args[2];
+                }
+                if (args[0].equals("-c") || args[0].equals("--config")){
+                    configFlag = args[0];
+                    configFilePath = args[1];
+                    command = args[2];
+
+                }
+            }
+        }
+        //if args comes with -r or --result  and other -c and -i flags.
+        // -c flag must follow with a path
+        // -i and -c flag is interchangeable
+        // (-c path -i) is valid but (-c -i path) is invalid
+        // -r must comes with a path (-r only is invalid)
+        // (-r resultPath) is valid (Algorithm audit to start)
+        // (-i -r resultPath) is valid. User Audit from Random scenario to start
+        // (-c -configPath -r -resultPath_ is valid. Algorithm Audit from config file to start, save in result path
+        // (-i -c -configPath -r -resultPath) is valid. User Audit from config file and result to be saved in resultPath
+
+
+        if (Arrays.toString(args).contains("-r") || Arrays.toString(args).contains("--results")){
+            if (args.length == 1){
+                command = args[0];
+            }
+            else if (args.length == 2){
+                command = args [0];
+                resultFilePath = args [1];
+            }
+            else if (args.length == 3){
+                if (args[0].equals("-i") || args[0].equals("--interactive")){
+                    command = args[0];
+                    resultFileFlag = args[1];
+                    resultFilePath = args[2];
+                }
+                if (args[0].equals("-r") || args[0].equals("--results")){
+                    resultFileFlag = args[0];
+                    resultFilePath = args[1];
+                    command = args[2];
+                }
+
+            }
+            else if (args.length == 4){
+                command = args[0];
+                configFilePath = args[1];
+                resultFileFlag = args[2];
+                resultFilePath = args[3];
+            }
+            else if (args.length == 5){
+                command = args[0];
+                configFlag = args[1];
+                configFilePath = args[2];
+                resultFileFlag = args[3];
+                resultFilePath = args[4];
+            }
+        }
+
+
+            switch (command){
+                case "":
+                    Audit audit = new Audit();
+                    audit.setAuditType("Algorithm");
+                    audit.setResultPath("");
+                    audit.run(ALGORITHM_AUDIT_DEFAULT_MAX);
+                    break;
+                case "-r":
+                case "--results":
+                    if (args.length == 1)
+                        ethicalEngine.helpOutput();
+                    if (args.length == 2){
+                        Audit audit2 = new Audit();
+                        audit2.setAuditType("Algorithm");
+                        audit2.setResultPath(resultFilePath);
+                        audit2.run(ALGORITHM_AUDIT_DEFAULT_MAX);
+                    }
+                    break;
+
+                case "--config":
+                case "-c":
+                    if(configFilePath.isEmpty())
+                        ethicalEngine.helpOutput();
+                    else{
+                        configFileScenario = ethicalEngine.configFileLoad(configFilePath);
+                        Audit newAudit = new Audit(configFileScenario,true, "Algorithm","");
+
+                    }
+                    if (args.length == 4 && resultFileFlag.equals("-r") || resultFileFlag.equals("--results")){
+                        configFileScenario = ethicalEngine.configFileLoad(configFilePath);
+                        new Audit(configFileScenario,true,"Algorithm",resultFilePath);
+                    }
+                    break;
+
+                case "-i":
+                case "--interactive":
+
+                    if (args.length == 3 && (resultFileFlag.equals("-r") || resultFileFlag.equals("--results"))){
+                        Audit audit1 = new Audit();
+                        audit1.setAuditType("User");
+                        audit1.setResultPath(resultFilePath);
+                        audit1.run(USER_AUDIT_DEFAULT_MAX);
+                    }
+                    if (args.length == 1){
+                        Audit audit1 = new Audit();
+                        audit1.setAuditType("User");
+                        audit1.setResultPath("");
+                        audit1.run(USER_AUDIT_DEFAULT_MAX);
+                    }
+                    if (args.length == 3 && (configFlag.equals("-c") || configFlag.equals("--config"))){
+                        configFileScenario = ethicalEngine.configFileLoad(configFilePath);
+                        ethicalEngine.welcomeMessagePrint();
+                        boolean userConsent = ethicalEngine.userConsent();
+                        new Audit(configFileScenario,userConsent,"User","");
+                    }
+
+                    if (args.length == 5 && (resultFileFlag.equals("-r") || resultFileFlag.equals("--results"))){
+                        configFileScenario = ethicalEngine.configFileLoad(configFilePath);
+                        ethicalEngine.welcomeMessagePrint();
+                        boolean userConsent = ethicalEngine.userConsent();
+                        new Audit(configFileScenario,userConsent,"User",resultFilePath);
+                    }
+                    break;
+
+                case "--help":
+                case "-h":
+                default:
+                    ethicalEngine.helpOutput();
+                    break;
+                }
+    }
+
+    /**
+     *
+     * Method to take user Consent to save data
+     * @return boolean
+     */
+
+
+    public boolean userConsent(){
+        boolean userConsent;
+        while(true){
+            try{
+                System.out.println("Do you consent to have your decisions saved to a file? (yes/no)");
+                String consentInput = keyboard.nextLine();
+                if (consentInput.equalsIgnoreCase("yes")){
+                    userConsent = true;
+                    break;
+                }
+                if (consentInput.equalsIgnoreCase("no")){
+                    userConsent = false;
+                    break;
+                }
+                throw new Exception();
+
+            }catch (Exception e){
+                System.out.print("Invalid response. ");
+            }
+        }
+        return userConsent;
+    }
+
+    /**
+     * Method to load config file from a specific path, loading into scenario Arraylist.
+     * @param filePath (path of config file)
+     * @return ArrayList<Scenario>
+     * @throw InvalidDataFormatException
+     * @throw InvalidCharacteristicException
+     * @throw NumberFormatException
+     *
+     */
+
+    private ArrayList<Scenario> configFileLoad(String filePath){
+        ArrayList<Scenario> myScenario = new ArrayList<>();
+        ArrayList<Character> myPassenger = new ArrayList<>();
+        ArrayList<Character> myPedestrian = new ArrayList<>();
+
+        Scanner inputStream = null;
+        try{
+            inputStream = new Scanner (new FileInputStream(filePath));
+            String line = null;
+            boolean isLegalCrossing = false;
+            int lineNum = 0;
+
+            while(inputStream.hasNextLine()){
+                line = inputStream.nextLine();
+                String[] newLine = line.split(",");
+                int length = newLine.length;
+
+                if (newLine[0].equalsIgnoreCase("class")){
+                    lineNum++;
+                    continue;
+                }
+                try{
+                    if ((length >1 && length <10) || length >10){
+                        lineNum++;
+                        throw new InvalidDataFormatException();
+                    }
+                }catch (InvalidDataFormatException e){
+                    System.out.println(e.getMessage()+lineNum);
+                }
+
+
+                if (newLine[0].contains("scenario") && myPassenger.size()==0 && myPedestrian.size()==0){
+                    lineNum++;
+                    isLegalCrossing = newLine[0].trim().equalsIgnoreCase("scenario:green");
+                }
+
+
+
+                if(length == 10){
+                    lineNum++;
+                    int age;
+                    Character.Gender gender = null;
+                    Character.BodyType bodyType = null;
+                    Person.Profession profession = null;
+                    Character.AgeCategory ageCategory = null;
+
+                    //Exception handling for Gender
+
+                    try{
+                        if (newLine[1].isEmpty())
+                            gender = Character.Gender.UNKNOWN;
+                        else {
+                            gender = Character.Gender.getGender(newLine[1]);
+                            if ( gender == null && newLine[0].equalsIgnoreCase("person")){
+                                throw new InvalidCharacteristicException();
+                            }
+                        }
+                    }catch (InvalidCharacteristicException e){
+                        System.out.println(e.getMessage()+lineNum);
+                        gender = Character.Gender.UNKNOWN;
+                    }
+
+                    //Exception handling for Age
+
+                    try{
+                        String ageStr = newLine[2];
+                        age = Integer.parseInt(ageStr);
+                    }catch (NumberFormatException e){
+                        System.out.println("WARNING! invalid number format in config file in line "+lineNum);
+                        age = Character.DEFAULT_AGE;
+                    }
+
+                    //Exception handling for BodyType
+
+                    try{
+                        if (newLine[3].isEmpty())
+                            bodyType = Character.BodyType.UNSPECIFIED;
+                        else {
+                            bodyType = Character.BodyType.getBdt(newLine[3]);
+                            if (bodyType == null && newLine[0].equalsIgnoreCase("person")){
+                                throw new InvalidCharacteristicException();
+                            }
+                        }
+                    }catch (InvalidCharacteristicException e){
+                        System.out.println(e.getMessage()+lineNum);
+                        bodyType = Character.BodyType.UNSPECIFIED;
+                    }
+
+                    //Exception handling for Profession
+
+                    try{
+                        profession = Person.Profession.getProf(newLine[4],age);
+                        if (profession == null && newLine[0].equalsIgnoreCase("person")){
+                            profession = Person.Profession.UNKNOWN;
+                            throw new InvalidCharacteristicException();
+                        }
+                    }catch (InvalidCharacteristicException e){
+                        System.out.println(e.getMessage()+lineNum);
+                    }
+
+                    //Exception handling for isPregnant
+
+                    boolean isPregnant, isYou, isPet;
+                    try{
+                        if (!exceptionHelp(newLine[5]) && newLine[0].equalsIgnoreCase("person"))
+                            throw new InvalidCharacteristicException();
+                        else
+                            isPregnant = Boolean.parseBoolean(newLine[5].toLowerCase());
+                    }catch (InvalidCharacteristicException e){
+                        System.out.println(e.getMessage() + lineNum);
+                        isPregnant = DEFAULT_BOOLEAN;
+                    }
+
+                    //Exception handling for isYou
+
+                    try{
+                        if (!exceptionHelp(newLine[6]) && newLine[0].equalsIgnoreCase("person"))
+                            throw new InvalidCharacteristicException();
+                        else
+                            isYou = Boolean.parseBoolean(newLine[6].toLowerCase());
+                    }catch (InvalidCharacteristicException e){
+                        System.out.println(e.getMessage() + lineNum);
+                        isYou = DEFAULT_BOOLEAN;
+                    }
+
+
+                    String species = newLine[7];
+
+                    //Exception handling for isPet
+
+                    try{
+                        if (!exceptionHelp(newLine[8]) && newLine[0].equalsIgnoreCase("animal"))
+                            throw new InvalidCharacteristicException();
+                        else
+                            isPet = Boolean.parseBoolean(newLine[8].toLowerCase());
+                    }catch (InvalidCharacteristicException e){
+                        System.out.println(e.getMessage() + lineNum);
+                        isPet = DEFAULT_BOOLEAN;
+                    }
+
+
+                    if (newLine[0].equalsIgnoreCase("person") && newLine[9].equalsIgnoreCase("passenger")){
+
+                        Person newPerson = new Person(age, profession, gender, bodyType, isPregnant);
+                        newPerson.setAsYou(isYou);
+                        myPassenger.add(newPerson);
+
+                    }
+                    if (newLine[0].equalsIgnoreCase("animal") && newLine[9].equalsIgnoreCase("passenger")) {
+                        Animal newAnimal = new Animal(species);
+                        newAnimal.setPet(isPet);
+                        myPassenger.add(newAnimal);
+
+                    }
+                    if (newLine[0].equalsIgnoreCase("person") && newLine[ 9 ].equalsIgnoreCase("pedestrian")) {
+                        Person newPerson = new Person(age, profession, gender, bodyType, isPregnant);
+                        newPerson.setAsYou(isYou);
+                        myPedestrian.add(newPerson);
+                    }
+                    if (newLine[0].equalsIgnoreCase("animal") && newLine[9].equalsIgnoreCase("pedestrian")) {
+                        Animal newAnimal = new Animal(species);
+                        newAnimal.setPet(isPet);
+                        myPedestrian.add(newAnimal);
+
+                    }
+                }
+
+                if (newLine[0].contains("scenario") && (myPassenger.size() >0 || myPedestrian.size()>0)){
+                    lineNum++;
+
+                    Character[] arrPassenger = myPassenger.toArray(new Character[myPassenger.size()]);
+                    Character[] arrPedestrian = myPedestrian.toArray(new Character[myPedestrian.size()]);
+
+                    Scenario newScenario = new Scenario(arrPassenger,arrPedestrian,isLegalCrossing);
+
+                    myScenario.add(newScenario);
+
+                    myPassenger.clear();
+                    myPedestrian.clear();
+                    isLegalCrossing = newLine[0].trim().equalsIgnoreCase("scenario:green");
+                }
+            }
+
+            Character[] arrPassenger = myPassenger.toArray(new Character[myPassenger.size()]);
+            Character[] arrPedestrian = myPedestrian.toArray(new Character[myPedestrian.size()]);
+
+            Scenario newScenario = new Scenario(arrPassenger,arrPedestrian,isLegalCrossing);
+            myScenario.add(newScenario);
+        } catch (FileNotFoundException e){
+            System.out.println("ERROR: could not find config file.");
+        }
+
+        inputStream.close();
+
+        return myScenario;
+}
+
+    /**
+     * helper method to check all boolean inputs from config files
+     * @param str String
+     * @return boolean
+     *
+     */
+     private boolean exceptionHelp(String str){
+
+        if (str.equalsIgnoreCase("true"))
+            return true;
+        else if (str.equalsIgnoreCase("false"))
+            return true;
+        else
+            return false;
+     }
+
+    /**
+     * method to print help output
+     */
+
+    private void helpOutput(){
+        System.out.println("EthicalEngine - COMP90041 - Final Project\n\n" +
+                            "Usage: java EthicalEngine [arguments] \n\n"+
+                              "Arguments:\n"+
+                            "\t -c or -- config       Optional: path to config file\n" +
+                            "\t -h or -- help         Print Help (this message) and exit\n"+
+                            "\t -r or --results       Optional: path to results log file\n"+
+                            "\t -i or --interactive   Optional: launches interactive mode");
+
+    }
+
+
+    /**
+     * Static method Decision to make decision whom to save from a scenario (passengers or pedestrians)
+     * @param scenario Scenario
+     * @return DECISION
+     *
+     */
+    public static Decision decide(Scenario scenario)  {
+         ArrayList<Character> tempPassengers,tempPedestrians;
+         ArrayList<Person> myPassengers = new ArrayList<>();
+         ArrayList<Animal> myAnimalsPassengers = new ArrayList<>();
+         ArrayList<Person> myPedestrians = new ArrayList<>();
+         ArrayList<Animal> myAnimalsPedestrians= new ArrayList<>();
+
+        Character[] arrPassenger,arrPedestrian;
+
+        arrPassenger = scenario.getPassengers();
+        arrPedestrian = scenario.getPedestrians();
+
+
+        Person myObj1;
+        Animal myObj2;
+
+
+        for (Character tempPassenger : arrPassenger) {
+            if (tempPassenger instanceof Person) {
+                myObj1 = (Person) tempPassenger;
+                myPassengers.add(myObj1);
+            }
+            if (tempPassenger instanceof Animal) {
+                myObj2 = (Animal) tempPassenger;
+                myAnimalsPassengers.add(myObj2);
+            }
+        }
+        for (Character tempPedestrian : arrPedestrian) {
+            if (tempPedestrian instanceof Person) {
+                myObj1 = (Person) tempPedestrian;
+                myPedestrians.add(myObj1);
+            }
+            if (tempPedestrian instanceof Animal) {
+                myObj2 = (Animal) tempPedestrian;
+                myAnimalsPedestrians.add(myObj2);
+            }
+        }
+
+        //
+
+
+        boolean hasYouInCar = scenario.hasYouInCar();
+        double personSaveFactor = 0.5;
+        double animalSaveFactor = 0.25;
+        double saveFactor = 1.0;
+        double legalCrossingFactor = 2.0;
+
+        double passengerSaveScore = (myPassengers.size()*personSaveFactor)+myAnimalsPassengers.size()*animalSaveFactor;
+
+
+        if (hasYouInCar)
+            passengerSaveScore = passengerSaveScore + saveFactor;
+
+        for (Person psgr : myPassengers) {
+            if (psgr.isPregnant() || psgr.getAgeCategory()== Character.AgeCategory.CHILD || psgr.getAgeCategory() == Character.AgeCategory.BABY || psgr.isPregnant())
+                passengerSaveScore = passengerSaveScore + saveFactor;
+            if (psgr.getProfession().equals(Person.Profession.DOCTOR) || psgr.getProfession().equals(Person.Profession.CEO) || psgr.getProfession().equals(Person.Profession.ENGINEER) || psgr.getProfession() == Person.Profession.STUDENT)
+                passengerSaveScore = passengerSaveScore + saveFactor;
+        }
+        for (Animal animal : myAnimalsPassengers){
+            if (animal.isPet())
+                passengerSaveScore = passengerSaveScore + saveFactor;
+        }
+
+
+
+        boolean isLegalCrossing = scenario.isLegalCrossing();
+        boolean hasYouInLane = scenario.hasYouInLane();
+        double pedestrianSaveScore = (myPedestrians.size()*personSaveFactor)+ (myAnimalsPedestrians.size()*animalSaveFactor);
+
+        if (isLegalCrossing)
+            pedestrianSaveScore = pedestrianSaveScore + legalCrossingFactor;
+        if (hasYouInLane)
+            pedestrianSaveScore = pedestrianSaveScore + saveFactor;
+        for (Person pdstn : myPedestrians) {
+            if (pdstn.isPregnant() || pdstn.getAgeCategory() == Character.AgeCategory.BABY || pdstn.getAgeCategory() == Character.AgeCategory.CHILD || pdstn.isPregnant())
+                pedestrianSaveScore = pedestrianSaveScore + saveFactor;
+            if (pdstn.getProfession().equals(Person.Profession.DOCTOR) || pdstn.getProfession().equals(Person.Profession.CEO) || pdstn.getProfession().equals(Person.Profession.ENGINEER) || pdstn.getProfession() == Person.Profession.STUDENT)
+                pedestrianSaveScore = pedestrianSaveScore + saveFactor;
+        }
+        for (Animal animal : myAnimalsPedestrians){
+            if (animal.isPet())
+                pedestrianSaveScore = pedestrianSaveScore + saveFactor;
+        }
+
+        Decision saved = null;
+
+        if (pedestrianSaveScore > passengerSaveScore)
+            saved = Decision.PEDESTRIANS;
+
+        if (pedestrianSaveScore < passengerSaveScore)
+            saved = Decision.PASSENGERS;
+
+        if (pedestrianSaveScore == passengerSaveScore){
+            if (arrPassenger.length > arrPedestrian.length)
+                saved = Decision.PASSENGERS;
+            else if( arrPassenger.length < arrPedestrian.length)
+                saved = Decision.PEDESTRIANS;
+            else {
+                if (myPassengers.size() > myPedestrians.size())
+                    saved = Decision.PASSENGERS;
+                else if (myPassengers.size() < myPedestrians.size())
+                    saved = Decision.PEDESTRIANS;
+                else{
+                    Random r = new Random();
+                    int num = r.nextInt(Decision.values().length);
+                    if (num == 0 )
+                        saved = Decision.PEDESTRIANS;
+                    else
+                        saved = Decision.PASSENGERS;
+                }
+            }
+        }
+        return saved;
+    }
+
+    /**
+     * Print welcome.ascii
+     * @return void
+     */
+
+    public void welcomeMessagePrint(){
+        String welcomeFilePath = "C:\\Users\\jony0\\IdeaProjects\\FinalProject\\welcome.ascii";
+        BufferedReader objReader = null;
+        try{
+            String strCurrentLine;
+            objReader = new BufferedReader(new FileReader("welcome.ascii"));
+            while ((strCurrentLine = objReader.readLine()) != null){
+                System.out.println(strCurrentLine);
+            }
+        }catch (IOException e){
+            System.out.println("Welcome file not found");
+            System.exit(0);
+        }
+    }
+
+    /**
+     * Exception Class for Invalid Data Format
+     */
+
+    public static class InvalidDataFormatException extends Exception {
+
+        public InvalidDataFormatException(){
+            super("WARNING: invalid data format in config file in line ");
+        }
+        public InvalidDataFormatException(String msg){
+            super(msg);
+        }
+    }
+    /**
+     * Exception class for Invalid Characteristics format
+     */
+
+    public static class InvalidCharacteristicException extends Exception{
+        public InvalidCharacteristicException(){
+            super("WARNING: invalid characteristic in config file in line ");
+        }
+        public InvalidCharacteristicException(String msg){
+            super(msg);
+        }
+    }
+}
+============================================
+src/Statistics.java
+09:44:16_Tuesday_30_June_2020
+============================================
+package ethicalengine;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class Statistics {
+
+
+    private String characteristics;
+    private int occurrence;
+    private int saved;
+    private int age;
+    private double sumAge;
+    private int personCount;
+
+    /**
+     * Default Constructor
+     */
+
+    public Statistics(){
+        this.sumAge = 0.0;
+        this.personCount =0;
+    }
+
+    /**
+     *
+     * @param characteristics String
+     * @param occurrence int
+     * @param saved int
+     */
+
+    public Statistics(String characteristics,int occurrence, int saved) {
+
+        this.characteristics = characteristics;
+        this.occurrence = occurrence;
+        this.saved = saved;
+    }
+
+    /**
+     *
+     * @param age int
+     */
+
+    public void addToSumAge(double age){
+        this.sumAge = this.sumAge + age;
+    }
+
+    /**
+     *
+     * @return double
+     */
+    public double getSumAge(){
+        return this.sumAge;
+    }
+
+    /**
+     *
+     * @param personCount int
+     */
+    public void addToPersonCount(int personCount){
+        this.personCount = this.personCount + personCount;
+    }
+
+    /**
+     *
+     * @return int
+     */
+    public int getPersonCount(){
+        return this.personCount;
+    }
+
+    /**
+     *
+     * @return int
+     */
+    public int getOccurrence() {
+        return this.occurrence;
+    }
+
+    /**
+     *
+     * @param occurrence int
+     */
+
+    public void setOccurrence(int occurrence) {
+        this.occurrence = occurrence;
+    }
+
+    /**
+     *
+     * @param saved int
+     */
+
+    public void setSaved(int saved) {
+        this.saved = saved;
+    }
+
+    /**
+     *
+     * @param age int
+     */
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    /**
+     *
+     * @return int
+     */
+
+    public int getSaved() {
+        return this.saved;
+    }
+
+    /**
+     *
+     * @return String
+     */
+
+    public String getCharacteristics() {
+        return characteristics;
+    }
+
+    /**
+     *
+     * @return double
+     */
+
+    public double getSurvivalRatio(){
+        String str="";
+        String formattedString="";
+        if (this.occurrence == 0)
+            return 0.0;
+        else{
+            str = String.valueOf((double)this.saved/this.occurrence);
+            formattedString = str.substring(0,3);
+        }
+            return Double.parseDouble(formattedString);
+    }
+    public double getAge(){
+        return this.age;
+    }
+
+    /**
+     * To string method
+     * @return String
+     */
+
+    public String toString() {
+        String formattedRatio = String.valueOf(getSurvivalRatio());
+        String print = getCharacteristics().toLowerCase()+ ": "+formattedRatio;
+        return print;
+    }
+}
+============================================
+src/Scenario.java
+09:44:16_Tuesday_30_June_2020
+============================================
+package ethicalengine;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class Scenario {
+
+
+    ArrayList<Character> myPassengers = new ArrayList<>();
+    ArrayList<Character> myPedestrians = new ArrayList<>();
+    private boolean isLegalCrossing;
+    private boolean hasYouInCar;
+    private boolean isPet;
+
+    /**
+     * Default Constructor
+     */
+    public Scenario(){
+        int passengersCount = 1;
+        int pedestriansCount = 1;
+    }
+
+    /**
+     * Constructor main
+     * @param passengers Passenger Array
+     * @param pedestrians Pedestrian Array
+     * @param isLegalCrossing legalcrossing status
+     */
+
+    public Scenario(Character[] passengers, Character[] pedestrians, boolean isLegalCrossing){
+
+        myPassengers.addAll(Arrays.asList(passengers));
+        myPedestrians.addAll(Arrays.asList(pedestrians));
+
+        this.isLegalCrossing = isLegalCrossing;
+    }
+
+    /**
+     *
+     * @return boolean
+     */
+    public boolean hasYouInCar(){
+        return this.hasYouInCar;
+    }
+
+    /**
+     *
+     * @param hasYouInCar boolean
+     */
+
+    public void setHasYouInCar(boolean hasYouInCar){
+        this.hasYouInCar = hasYouInCar;
+    }
+
+    /**
+     *
+     * @return boolean
+     */
+    public boolean hasYouInLane() {
+        return !this.hasYouInCar;
+    }
+
+    /**
+     *
+     * @return Character array of passengers
+     */
+    public Character[] getPassengers() {
+        return myPassengers.toArray(new Character[myPassengers.size()]);
+    }
+
+    /**
+     *
+     * @return Character array of pedestrians
+     */
+    public Character[] getPedestrians(){
+        return myPedestrians.toArray(new Character[myPedestrians.size()]);
+    }
+    public boolean isLegalCrossing() {
+        return this.isLegalCrossing;
+    }
+
+    /**
+     * Setter to set legal Crossing status
+     * @param isLegalCrossing boolean
+     */
+    public void setLegalCrossing(boolean isLegalCrossing){
+        this.isLegalCrossing = isLegalCrossing;
+    }
+
+    /**
+     * total passenger counts
+     * @return int
+     */
+    public int getPassengerCount() {
+        return myPassengers.size();
+    }
+    /**
+     * total pedestrian counts
+     * @return int
+     */
+    public int getPedestrianCount() {
+        return myPedestrians.size();
+    }
+
+    /**
+     * set pet
+     * @param isPet boolean
+     */
+
+    public void setIsPet(boolean isPet){
+        this.isPet = isPet;
+    }
+
+    /**
+     * Get pet
+     * @return boolean
+     */
+    public boolean getIsPet(){
+        return this.isPet;
+    }
+
+    /**
+     * get legal crossing as string
+     * @return String
+     */
+    public String getLegalCrossing(){
+        if(this.isLegalCrossing){
+            return "yes";
+        }
+        return "no";
+    }
+
+    /**
+     * Helper method to print in to String
+     * @return String
+     */
+    private String printHelp(){
+        String print="";
+        for (int i=0; i<38; i++)
+            print = print + "=";
+
+        return print;
+    }
+
+    /**
+     * to String method
+     * @return String
+     */
+    @Override
+    public String toString() {
+        String printOut="";
+
+        printOut = printHelp()+ "\n# Scenario\n"+printHelp();
+
+
+        printOut = printOut+ "\nLegal Crossing: "+getLegalCrossing()+"\nPassengers ("+getPassengerCount()+")\n";
+
+        for (Character passenger: myPassengers){
+            printOut = printOut+"- "+passenger.toString()+"\n";
+       }
+        printOut = printOut + "Pedestrians ("+getPedestrianCount()+")";
+        for (Character pedestrian: myPedestrians){
+            printOut = printOut + "\n- "+pedestrian.toString();
+        }
+        return printOut;
+    }
+
+}
+============================================
+src/Animal.java
+09:44:16_Tuesday_30_June_2020
+============================================
+package ethicalengine;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class Animal extends Character{
+
+    String species;
+    boolean isPet;
+
+    /**
+     * Default Animal Constructor to set species and isPet
+     */
+    public Animal(){
+        species = "default";
+        isPet = false;
+    }
+    public Animal(String species){
+        this.species = species;
+    }
+
+    /**
+     *
+     * Copy constructor to create new instance of Class Animal
+     * @param otherAnimal Other Animal to copy
+     */
+
+    public Animal(Animal otherAnimal){
+        super(otherAnimal);
+        if (otherAnimal != null){
+            this.species = otherAnimal.species;
+        }
+    }
+
+    /**
+     * Getter method of species
+     * @return String
+     *
+     */
+    public String getSpecies() {
+        return this.species;
+    }
+
+    /**
+     *
+     * Setter method of species
+     * @param species as String
+     */
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    /**
+     *
+     * getter method of isPet
+     * @return boolean
+     */
+
+    public boolean isPet(){
+        return this.isPet;
+    }
+
+    /**
+     *
+     * setter method of isPet
+     * @param isPet as boolean
+     */
+    public void setPet(boolean isPet){
+        this.isPet = isPet;
+    }
+
+    /**
+     *
+     * toString method from Animal Class
+     * @return String
+     */
+
+    @Override
+    public String toString(){
+        String printOut = "";
+        if (this.isPet)
+            printOut = this.species+" "+"is pet";
+        else
+            printOut = this.species;
+        return printOut.toLowerCase();
+    }
+
+}
+============================================
+src/Person.java
+09:44:16_Tuesday_30_June_2020
+============================================
+package ethicalengine;
+
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class Person extends Character{
+
+    private boolean isPregnant, isYou;
+    private Profession profession;
+
+
+    /**
+     * default constructor to set values to all default, considered isPregnant and isYou as false
+     */
+    public Person(){
+        super();
+        profession = Profession.UNKNOWN;
+        isPregnant = false;
+        isYou = false;
+    }
+
+    /**
+     * constructor to set up age, gender and bodytype
+     * @param age age
+     * @param gender gender
+     * @param bodyType bodyTpye
+     */
+    public Person(int age, Gender gender, BodyType bodyType){
+        super.setAge(age);
+        super.setBodyType(bodyType);
+        super.setGender(gender);
+    }
+
+    /**
+     * Main Constructor
+     * @param age Age
+     * @param profession Profession
+     * @param gender Gender
+     * @param bodyType Bodytype
+     * @param isPregnant Pregnancy Status
+     */
+
+    public Person(int age, Profession profession, Gender gender, BodyType bodyType, boolean isPregnant) {
+        super(age, gender, bodyType);
+
+        if (AgeCategory.getAgeCategory(age) == AgeCategory.ADULT)
+            this.profession = profession;
+        else
+            this.profession = Profession.NONE;
+
+        if (getGender() == Gender.FEMALE)
+            this.isPregnant = isPregnant;
+
+        if (AgeCategory.getAgeCategory(age).equals(AgeCategory.BABY) || AgeCategory.getAgeCategory(age).equals(AgeCategory.CHILD))
+            this.isPregnant = false;
+
+        if ( AgeCategory.getAgeCategory(age).equals(AgeCategory.SENIOR))
+            this.isPregnant = false;
+
+    }
+
+    /**
+     * Copy Constructor
+     * @param otherPerson Another Person
+     */
+
+    public Person(Person otherPerson){
+        super(otherPerson);
+        if (otherPerson != null){
+            this.profession = otherPerson.profession;
+            this.isPregnant = otherPerson.isPregnant;
+        }
+    }
+
+    /**
+     * return age category from age
+     * @return AgeCategory
+     */
+    public AgeCategory getAgeCategory(){
+
+        int myAge = getAge();
+        AgeCategory temp = null;
+
+        if (myAge >= 0 && myAge <= 4)
+            temp = AgeCategory.BABY;
+        if (myAge >=5 && myAge <=16 )
+            temp =  AgeCategory.CHILD;
+        if (myAge >=17 && myAge <=68 )
+            temp =  AgeCategory.ADULT;
+       if  (myAge >68)
+            temp =  AgeCategory.SENIOR;
+
+        return temp;
+    }
+
+    /**
+     * Getter Profession
+     * @return Profession
+     */
+
+    public Profession getProfession() {
+        return this.profession;
+    }
+
+    public boolean isPregnant(){
+        if (getGender().equals(Gender.FEMALE))
+            return this.isPregnant;
+        else
+            return false;
+    }
+    public void setPregnant(boolean pregnant){
+        this.isPregnant = pregnant;
+    }
+    public boolean isYou(){
+        return this.isYou;
+    }
+    public void setAsYou(boolean isYou){
+        this.isYou = isYou;
+    }
+
+    /**
+     * To String method
+     * @return String
+     */
+    @Override
+    public String toString() {
+        String printout="";
+
+        if (isYou && getAgeCategory() == AgeCategory.ADULT && isPregnant )
+            printout = "you "+this.getBodyType()+" "+this.getAgeCategory()+" "+this.profession+" "+this.getGender()+" pregnant";
+        if (isYou && getAgeCategory() == AgeCategory.ADULT && !isPregnant )
+            printout = "you "+this.getBodyType()+" "+this.getAgeCategory()+" "+this.profession+" "+this.getGender();
+        if (isYou && getAgeCategory() != AgeCategory.ADULT && isPregnant )
+            printout = "you "+this.getBodyType()+" "+this.getAgeCategory()+" "+this.getGender()+" pregnant";
+        if (isYou && getAgeCategory() != AgeCategory.ADULT && !isPregnant )
+            printout = "you "+this.getBodyType()+" "+this.getAgeCategory()+" "+this.getGender();
+
+        if (!isYou && getAgeCategory() == AgeCategory.ADULT && isPregnant )
+            printout = this.getBodyType()+" "+this.getAgeCategory()+" "+this.profession+" "+this.getGender()+" pregnant";
+        if (!isYou && getAgeCategory() != AgeCategory.ADULT && isPregnant )
+            printout = this.getBodyType()+" "+this.getAgeCategory()+" "+this.getGender()+" pregnant";
+        if (!isYou && getAgeCategory() == AgeCategory.ADULT && !isPregnant )
+            printout = this.getBodyType()+" "+this.getAgeCategory()+" "+this.profession+" "+this.getGender();
+        if (!isYou && getAgeCategory() != AgeCategory.ADULT && !isPregnant )
+            printout = this.getBodyType()+" "+this.getAgeCategory()+" "+this.getGender();
+
+        return  printout.toLowerCase();
+    }
+
+    /**
+     * Enumeration type Profession with set of professions
+     */
+
+    public enum Profession {
+        DOCTOR(0),
+        CEO(1),
+        CRIMINAL(2),
+        HOMELESS(3),
+        UNEMPLOYED(4),
+        ENGINEER(5),
+        STUDENT(6),
+        RETIRED(7),
+        UNKNOWN(8),
+        NONE(9);
+
+
+        private int profNum;
+
+        Profession(int profNum){
+            this.profNum = profNum;
+        }
+        public int getProfNum(){
+            return this.profNum;
+        }
+
+
+        /**
+         *
+         * @param profNum number
+         * @return Profession
+         */
+
+        public static Profession getProfession(int profNum){
+            Profession profession = null;
+            for (Profession temp: Profession.values()){
+                if (temp.getProfNum() == profNum)
+                    profession = temp;
+            }
+            return profession;
+        }
+
+        /**
+         *
+         * @param profession profession
+         * @param age age
+         * @return Profession
+         */
+
+        public static Profession getProf(String profession, int age){
+            Profession myProfession = null;
+            AgeCategory agc = AgeCategory.getAgeCategory(age);
+
+            if (profession.isEmpty()){
+                if (agc == AgeCategory.ADULT)
+                    myProfession = Profession.UNKNOWN;
+                else
+                    myProfession = Profession.NONE;
+            }
+
+            for (Profession tempProf: Profession.values()){
+                if (tempProf.name().equalsIgnoreCase(profession)){
+                        myProfession = tempProf;
+                }
+            }
+
+            return myProfession;
+        }
+
+    }
+
+}
+============================================
+src/welcome.ascii
+09:44:16_Tuesday_30_June_2020
+============================================
+                   __-------__
+                 / _---------_ \
+                / /           \ \
+                | |           | |
+                |_|___________|_|
+            /-\|                 |/-\
+           | _ |\       0       /| _ |
+           |(_)| \      !      / |(_)|
+           |___|__\_____!_____/__|___|
+           [_______|COMP90041|_______] 
+            ||||    ~~~~~~~~~    ||||
+            `--'                 `--'
+
+    $$\      $$\                              $$\                                
+    $$$\    $$$ |                             $$ |                               
+    $$$$\  $$$$ | $$$$$$\   $$$$$$\  $$$$$$\  $$ |                               
+    $$\$$\$$ $$ |$$  __$$\ $$  __$$\ \____$$\ $$ |                               
+    $$ \$$$  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ |                               
+    $$ |\$  /$$ |$$ |  $$ |$$ |     $$  __$$ |$$ |                               
+    $$ | \_/ $$ |\$$$$$$  |$$ |     \$$$$$$$ |$$ |                               
+    \__|     \__| \______/ \__|      \_______|\__|                               
+    $$\      $$\                     $$\       $$\                               
+    $$$\    $$$ |                    $$ |      \__|                              
+    $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$\   $$$$$$$\ 
+    $$\$$\$$ $$ | \____$$\ $$  _____|$$  __$$\ $$ |$$  __$$\ $$  __$$\ $$  _____|
+    $$ \$$$  $$ | $$$$$$$ |$$ /      $$ |  $$ |$$ |$$ |  $$ |$$$$$$$$ |\$$$$$$\  
+    $$ |\$  /$$ |$$  __$$ |$$ |      $$ |  $$ |$$ |$$ |  $$ |$$   ____| \____$$\ 
+    $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$\ $$ |  $$ |$$ |$$ |  $$ |\$$$$$$$\ $$$$$$$  |
+    \__|     \__| \_______| \_______|\__|  \__|\__|\__|  \__| \_______|\_______/ 
+
+
+Welcome to Moral Machines! 
+    
+The idea of Moral Machines is based on the Trolley Dilemma, a fictional scenario presenting a decision maker with a moral dilemma: choosing ”the lesser of two evils”. The scenario entails an autonomous car whose brakes fail at a pedestrian crossing. As it is too late to relinquish control to the car’s passengers, the car needs to make a decision. Now.
+
+The answers are not straightforward. There are a number of variables at play, which influence how people may feel about the decision: the number of pedestrians or passengers, whether the pedestrians are crossing the street legally, and personal characteristics that our automomous car can somehow infer (people's body tye, profession, gender, age, etc.). This program is a thought experiment, which explores how decisions should be made by auditing algorithms and collecting user feedback. You, the user of this program, will be put into (im)possible situations, left to decide about life and death.============================================
+src/Audit.java
+09:44:16_Tuesday_30_June_2020
+============================================
+
+import ethicalengine.*;
+import ethicalengine.Character;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public class Audit {
+
+    private int runs;
+    private String auditType;
+    private String resultPath;
+    public EthicalEngine eEngine = new EthicalEngine();
+    private  ArrayList<Statistics> myStatistics = new ArrayList<>();
+    Statistics statistics = new Statistics();
+    private static final int DEFAULT_RUN = 3;
+    private static final int SEED_HELPER = 100000;
+
+    /**
+     * Audit constructor set auditType to default value
+     */
+    public Audit(){
+        this.auditType = "Unspecified";
+    }
+
+
+    /**
+     *
+     * @param scenario scenario
+     * @param consent user Consent
+     * @param auditType audit type
+     * @param newPath fileSave path user defined
+     * Constructor Audit to take 4 arguments and run with the either user audit or algorithm audit, also if new path provided (-r) used that path to save
+     *
+     */
+
+    public Audit(ArrayList<Scenario> scenario, boolean consent, String auditType, String newPath){
+
+
+        this.auditType = auditType;
+
+        if (getAuditType().equalsIgnoreCase("User")){
+
+            int scenarioReminder = scenario.size() % 3;
+            int scenarioLeft = scenario.size();
+
+            for (int i=0; i<scenario.size();i++){
+                run(scenario.get(i));
+                scenarioLeft = scenarioLeft - 1;
+
+                if ((i+1) % DEFAULT_RUN == 0){
+                    this.runs = i+1;
+                    printStatistics();
+                    printTofile(newPath,consent);
+
+                    if (i+1 < scenario.size()){
+                        System.out.println("Would you like to continue? (yes/no)");
+                        String userInput = EthicalEngine.keyboard.nextLine();
+                        if (userInput.equalsIgnoreCase("no"))
+                            System.exit(0);
+                    }
+                }
+
+                if (scenarioLeft == 0 ){
+                    if (scenarioReminder == 1 || scenarioReminder == 2){
+                        this.runs = scenario.size();
+                        printStatistics();
+                        printTofile(newPath,consent);
+                    }
+                    System.out.println("That's all. Press Enter to quit.");
+                    String quitInput = EthicalEngine.keyboard.nextLine();
+                    if (quitInput.isEmpty())
+                        break;
+                }
+            }
+       }
+
+
+        ArrayList<Character> tempPassengers = new ArrayList<>();
+        ArrayList<Character> tempPedestrians = new ArrayList<>();
+
+        Character[] arrPassenger, arrPedestrian;
+
+        if (getAuditType().equalsIgnoreCase("Algorithm")){
+
+            for (int i=0; i<scenario.size(); i++){
+
+                EthicalEngine.Decision saved = EthicalEngine.decide(scenario.get(i));
+
+                boolean isLegalCrossing = scenario.get(i).isLegalCrossing();
+                arrPassenger = scenario.get(i).getPassengers();
+                arrPedestrian = scenario.get(i).getPedestrians();
+
+                tempPassengers.addAll(Arrays.asList(arrPassenger));
+                tempPedestrians.addAll(Arrays.asList(arrPedestrian));
+
+                addToStatistics(saved,isLegalCrossing,tempPassengers,tempPedestrians);
+            }
+            this.runs = scenario.size();
+            printStatistics();
+            printTofile(newPath,true);
+        }
+    }
+
+    /**
+     *
+     * take Scenario as input present it to user to ask whom to save (pedestrians or passengers)
+     * @param scenario Scenario
+     * @return void
+     *
+     */
+
+    public void run(Scenario scenario){
+
+        EthicalEngine.Decision saved = null;
+
+        System.out.println(scenario.toString());
+
+        while (true){
+            System.out.println("Who should be saved? (passenger(s) [1] or pedestrian(s) [2])");
+            String userInput = EthicalEngine.keyboard.nextLine();
+            if (userInput.equalsIgnoreCase("passenger") || userInput.equalsIgnoreCase("passengers") || userInput.equals("1")){
+                saved = EthicalEngine.Decision.PASSENGERS;
+                break;
+            }
+            else if (userInput.equalsIgnoreCase("pedestrian") || userInput.equalsIgnoreCase("pedestrians") || userInput.equals("2")){
+                saved = EthicalEngine.Decision.PEDESTRIANS;
+                break;
+            }
+        }
+
+        ArrayList<Character> tempPassengers = new ArrayList<>();
+        ArrayList<Character> tempPedestrians = new ArrayList<>();
+
+        Character[] arrPassenger, arrPedestrian;
+
+        arrPassenger = scenario.getPassengers();
+        arrPedestrian = scenario.getPedestrians();
+
+        //copy data from two Character array to Character Arraylist
+
+        tempPassengers.addAll(Arrays.asList(arrPassenger));
+        tempPedestrians.addAll(Arrays.asList(arrPedestrian));
+
+
+        boolean isLegalCrossing = scenario.isLegalCrossing();
+
+        addToStatistics(saved,isLegalCrossing,tempPassengers,tempPedestrians);
+
+    }
+
+    /**
+     *
+     * @param runs int
+     * @return void
+     * public method run to take two arguments and run with user or algorithm audit
+     */
+
+    public void run(int runs){
+
+        ArrayList<Character> tempPassengers = new ArrayList<>();
+        ArrayList<Character> tempPedestrians = new ArrayList<>();
+        Character[] arrPassenger, arrPedestrian;
+
+        if (getAuditType().equalsIgnoreCase("User")) {
+
+            EthicalEngine eEngine = new EthicalEngine();
+            eEngine.welcomeMessagePrint();
+            boolean userConsent = eEngine.userConsent();
+
+            for (int i = 0; i < runs; i++) {
+                EthicalEngine.Decision saved = null;
+
+                //long seedValue = (long)Math.floor(Math.random()*SEED_HELPER);
+                //ScenarioGenerator sng = new ScenarioGenerator(seedValue,1,5,1,5);
+
+                ScenarioGenerator sng = new ScenarioGenerator();
+                Scenario scenario = sng.generate();
+                System.out.println(scenario.toString());
+                System.out.println("Who should be saved? (passenger(s) [1] or pedestrian(s) [2])");
+                String userInput = EthicalEngine.keyboard.nextLine();
+                if (userInput.equalsIgnoreCase("passenger") || userInput.equalsIgnoreCase("passengers") || userInput.equals("1")) {
+                    saved = EthicalEngine.Decision.PASSENGERS;
+                }
+                if (userInput.equalsIgnoreCase("pedestrian") || userInput.equalsIgnoreCase("pedestrians") || userInput.equals("2")) {
+                    saved = EthicalEngine.Decision.PEDESTRIANS;
+                }
+                boolean isLegalCrossing = scenario.isLegalCrossing();
+
+                arrPassenger = scenario.getPassengers();
+                arrPedestrian = scenario.getPedestrians();
+
+                //copy data from two Character array to Character Arraylist
+
+                tempPassengers.addAll(Arrays.asList(arrPassenger));
+                tempPedestrians.addAll(Arrays.asList(arrPedestrian));
+
+                addToStatistics(saved, isLegalCrossing, tempPassengers, tempPedestrians);
+
+                if ((i+1) % 3 == 0) {
+                    this.runs = (i+1);
+                    printStatistics();
+                    if (this.resultPath.isEmpty())
+                        printTofile("",userConsent);
+                    else
+                        printTofile(this.resultPath,userConsent);
+
+                    System.out.println("Would you like to continue? (yes/no)");
+                    String newInput = EthicalEngine.keyboard.nextLine();
+                    if (newInput.equalsIgnoreCase("no"))
+                        break;
+                }
+            }
+        }
+
+            if (getAuditType().equalsIgnoreCase("Algorithm")){
+
+                for (int i=0; i<runs; i++){
+
+                    //long seedValue = (long)Math.floor(Math.random()*SEED_HELPER);
+                    //ScenarioGenerator sng = new ScenarioGenerator(seedValue,1,5,1,5);
+                    ScenarioGenerator sng = new ScenarioGenerator();
+                    Scenario scenario = sng.generate();
+                    EthicalEngine.Decision decision = EthicalEngine.decide(scenario);
+                    boolean isLegalCrossing = scenario.isLegalCrossing();
+
+                    arrPassenger = scenario.getPassengers();
+                    arrPedestrian = scenario.getPedestrians();
+
+                    tempPassengers.addAll(Arrays.asList(arrPassenger));
+                    tempPedestrians.addAll(Arrays.asList(arrPedestrian));
+
+                    addToStatistics(decision,isLegalCrossing,tempPassengers,tempPedestrians);
+                }
+
+                this.runs = runs;
+                printStatistics();
+                if (this.resultPath.isEmpty())
+                    printTofile("",true);
+                else
+                    printTofile(this.resultPath,true);
+            }
+    }
+
+
+    /**
+     *
+     * private method to add / update Statistics for all survivors
+     * @param saved Decision who to be saved
+     * @param islegalCrossing legalCrossing
+     * @param passengers  Passengers
+     * @param pedestrians Pedestrians
+     *
+     */
+    private void addToStatistics(EthicalEngine.Decision saved,boolean islegalCrossing,ArrayList<Character> passengers, ArrayList<Character> pedestrians){
+
+        Person myObj1;
+        Animal myObj2;
+
+        ArrayList<Person> myPassengers = new ArrayList<>();
+        ArrayList<Animal> myAnimalsPassengers = new ArrayList<>();
+        ArrayList<Person> myPedestrians = new ArrayList<>();
+        ArrayList<Animal> myAnimalsPedestrians= new ArrayList<>();
+
+
+        // below block of codes to casting passengers to either person or animal array
+
+        for (Character tempPassenger : passengers) {
+            if (tempPassenger instanceof Person) {
+                myObj1 = (Person) tempPassenger;
+                myPassengers.add(myObj1);
+            }
+            if (tempPassenger instanceof Animal) {
+                myObj2 = (Animal) tempPassenger;
+                myAnimalsPassengers.add(myObj2);
+            }
+        }
+        for (Character tempPedestrian : pedestrians) {
+            if (tempPedestrian instanceof Person) {
+                myObj1 = (Person) tempPedestrian;
+                myPedestrians.add(myObj1);
+            }
+            if (tempPedestrian instanceof Animal) {
+                myObj2 = (Animal) tempPedestrian;
+                myAnimalsPedestrians.add(myObj2);
+            }
+        }
+
+
+
+        //Below block of codes to add occurrence of  characteristics into statistics
+
+
+        for (Person passenger:myPassengers){
+            int age = passenger.getAge();
+
+            String profession = passenger.getProfession().name();
+            String bodyType = passenger.getBodyType().name();
+            String gender = passenger.getGender().name();
+            String ageCategory = passenger.getAgeCategory().name();
+
+
+            if(passenger.isYou()) {
+                String isYou = "you";
+                addOccuranceToStatistics(isYou);
+            }
+            if(passenger.isPregnant()){
+                String isPregnant = "pregnant";
+                addOccuranceToStatistics(isPregnant);
+            }
+
+            if(!profession.equals(Person.Profession.NONE.name()))
+                addOccuranceToStatistics(profession);
+
+            if (!bodyType.equals(Character.BodyType.UNSPECIFIED.name()))
+                addOccuranceToStatistics(bodyType);
+
+            if (!gender.equals(Character.Gender.UNKNOWN.name()))
+                addOccuranceToStatistics(gender);
+
+            addOccuranceToStatistics(ageCategory);
+
+
+            if (saved == EthicalEngine.Decision.PASSENGERS){
+                if(!profession.equals(Person.Profession.NONE.name()))
+                    updateStatisticsSaved(profession);
+
+                updateStatisticsSaved(bodyType);
+
+                if (!gender.equals(Character.Gender.UNKNOWN.name()))
+                    updateStatisticsSaved(gender);
+
+                updateStatisticsSaved(ageCategory);
+
+                if (passenger.isYou())
+                    updateStatisticsSaved("you");
+                if (passenger.isPregnant())
+                    updateStatisticsSaved("pregnant");
+            }
+        }
+        for (Animal animal:myAnimalsPassengers){
+            String animalName = animal.getSpecies();
+            addOccuranceToStatistics(animalName);
+            if(animal.isPet()){
+                String isPet = "pet";
+                addOccuranceToStatistics(isPet);
+            }
+            if (saved == EthicalEngine.Decision.PASSENGERS){
+                updateStatisticsSaved(animalName);
+                if (animal.isPet())
+                    updateStatisticsSaved("pet");
+            }
+        }
+
+        for (Person pedestrian: myPedestrians){
+            int age = pedestrian.getAge();
+
+            String profession = pedestrian.getProfession().name();
+            String bodyType = pedestrian.getBodyType().name();
+            String gender = pedestrian.getGender().name();
+            String ageCategory = pedestrian.getAgeCategory().name();
+
+
+            if(pedestrian.isYou()) {
+                String isYou = "you";
+                addOccuranceToStatistics(isYou);
+            }
+            if(pedestrian.isPregnant()){
+                String isPregnant = "pregnant";
+                addOccuranceToStatistics(isPregnant);
+            }
+            if(!profession.equals(Person.Profession.NONE.name()))
+                addOccuranceToStatistics(profession);
+
+            if (!bodyType.equals(Character.BodyType.UNSPECIFIED.name()))
+                addOccuranceToStatistics(bodyType);
+
+
+            if (!gender.equals(Character.Gender.UNKNOWN.name()))
+                addOccuranceToStatistics(gender);
+
+            addOccuranceToStatistics(ageCategory);
+
+            if (saved == EthicalEngine.Decision.PEDESTRIANS){
+                if(!profession.equals(Person.Profession.NONE.name()))
+                    updateStatisticsSaved(profession);
+
+                updateStatisticsSaved(bodyType);
+
+                if (!gender.equals(Character.Gender.UNKNOWN.name()))
+                    updateStatisticsSaved(gender);
+
+                updateStatisticsSaved(ageCategory);
+
+                if (pedestrian.isYou())
+                    updateStatisticsSaved("you");
+                if (pedestrian.isPregnant())
+                    updateStatisticsSaved("pregnant");
+            }
+        }
+
+        for (Animal animal:myAnimalsPedestrians){
+            String animalName = animal.getSpecies();
+            addOccuranceToStatistics(animalName);
+            if(animal.isPet()){
+                String isPet = "pet";
+                addOccuranceToStatistics(isPet);
+            }
+            if (saved == EthicalEngine.Decision.PEDESTRIANS){
+                updateStatisticsSaved(animalName);
+                if (animal.isPet())
+                    updateStatisticsSaved("pet");
+            }
+        }
+
+        if (saved == EthicalEngine.Decision.PASSENGERS){
+            statistics.addToPersonCount(myPassengers.size());
+            for (Person passenger: myPassengers)
+                statistics.addToSumAge(passenger.getAge());
+
+            int x = findCharacteristics("person");
+            int y = findCharacteristics("animal");
+
+            if (x >= 0){
+                myStatistics.get(x).setOccurrence(myStatistics.get(x).getOccurrence()+ myPassengers.size()+ myPedestrians.size());
+                myStatistics.get(x).setSaved(myStatistics.get(x).getSaved()+ myPassengers.size());
+            }
+            if (x < 0){
+                Statistics newObj = new Statistics("person",myPassengers.size()+myPedestrians.size(),myPassengers.size());
+                myStatistics.add(newObj);
+            }
+            if (y >= 0){
+                myStatistics.get(y).setOccurrence(myStatistics.get(y).getOccurrence()+myAnimalsPassengers.size()+myAnimalsPedestrians.size());
+                myStatistics.get(y).setSaved(myStatistics.get(y).getSaved()+ myAnimalsPassengers.size());
+            }
+            if (y < 0){
+                Statistics newObj = new Statistics("animal",myAnimalsPassengers.size()+myAnimalsPedestrians.size(),myAnimalsPassengers.size());
+                myStatistics.add(newObj);
+            }
+
+
+            if (islegalCrossing){
+                int index = findCharacteristics("green");
+                if (index >= 0){
+                    myStatistics.get(index).setOccurrence(myStatistics.get(index).getOccurrence() + passengers.size()+ pedestrians.size());
+                    myStatistics.get(index).setSaved(myStatistics.get(index).getSaved()+passengers.size());
+                }
+                if (index <0){
+                    Statistics newObj = new Statistics("green",passengers.size()+pedestrians.size(),passengers.size());
+                    myStatistics.add(newObj);
+                }
+
+            }
+            if (!islegalCrossing){
+                int index = findCharacteristics("red");
+                if (index >= 0){
+                    myStatistics.get(index).setOccurrence(myStatistics.get(index).getOccurrence() + passengers.size()+pedestrians.size());
+                    myStatistics.get(index).setSaved(myStatistics.get(index).getSaved()+passengers.size());
+                }
+                if (index <0){
+                    Statistics newObj = new Statistics("red",passengers.size()+pedestrians.size(),passengers.size());
+                    myStatistics.add(newObj);
+                }
+
+            }
+        }
+
+        if (saved == EthicalEngine.Decision.PEDESTRIANS){
+
+            statistics.addToPersonCount(myPedestrians.size());
+            for (Person pedestrian: myPedestrians)
+                statistics.addToSumAge(pedestrian.getAge());
+
+            int x = findCharacteristics("person");
+            int y = findCharacteristics("animal");
+
+            if (x >=0){
+                myStatistics.get(x).setOccurrence(myStatistics.get(x).getOccurrence()+myPassengers.size()+myPedestrians.size());
+                myStatistics.get(x).setSaved(myStatistics.get(x).getSaved()+myPedestrians.size());
+            }
+            if (x < 0){
+                Statistics newObj = new Statistics("person",myPassengers.size()+myPedestrians.size(),myPedestrians.size());
+                myStatistics.add(newObj);
+            }
+            if (y >=0){
+                myStatistics.get(y).setOccurrence(myStatistics.get(y).getOccurrence()+myAnimalsPassengers.size()+myAnimalsPedestrians.size());
+                myStatistics.get(y).setSaved(myStatistics.get(y).getSaved()+myAnimalsPedestrians.size());
+            }
+            if (y < 0){
+                Statistics newObj = new Statistics("animal",myAnimalsPassengers.size()+myAnimalsPedestrians.size(),myAnimalsPedestrians.size());
+                myStatistics.add(newObj);
+            }
+
+            if (islegalCrossing){
+                int index = findCharacteristics("green");
+                if (index >= 0){
+                    myStatistics.get(index).setOccurrence(myStatistics.get(index).getOccurrence() + passengers.size()+pedestrians.size());
+                    myStatistics.get(index).setSaved(myStatistics.get(index).getSaved()+pedestrians.size());
+                }
+                if (index <0){
+                    Statistics newObj = new Statistics("green",passengers.size()+pedestrians.size(),pedestrians.size());
+                    myStatistics.add(newObj);
+                }
+
+            }
+            if (!islegalCrossing){
+                int index = findCharacteristics("red");
+                if (index >= 0){
+                    myStatistics.get(index).setOccurrence(myStatistics.get(index).getOccurrence() + passengers.size()+pedestrians.size());
+                    myStatistics.get(index).setSaved(myStatistics.get(index).getSaved()+pedestrians.size());
+                }
+                if (index <0){
+                    Statistics newObj = new Statistics("red",passengers.size()+pedestrians.size(),pedestrians.size());
+                    myStatistics.add(newObj);
+                }
+
+            }
+        }
+    }
+
+    /**
+     * private method to find any characteristics in myStatistics array
+     * @param characteristics String
+     * @return int
+     *
+     */
+
+    private int findCharacteristics(String characteristics){
+
+        for (int i=0; i<myStatistics.size(); i++){
+            if (characteristics.equals(myStatistics.get(i).getCharacteristics()))
+                return i;
+        }
+        return -1;
+
+    }
+
+    /**
+     * private method to add any characteristics to myStatistics array
+     * @param characteristics String
+     *
+     */
+
+
+    private void addOccuranceToStatistics(String characteristics){
+        int index = findCharacteristics(characteristics);
+        if (index >= 0){
+            myStatistics.get(index).setOccurrence((myStatistics.get(index).getOccurrence() + 1));
+            return;
+        }
+        Statistics object = new Statistics(characteristics, 1,0);
+        myStatistics.add(object);
+    }
+
+    /**
+     * Private method to updated Statistics array for any survived characteristics
+     * @param characteristics String
+     */
+
+    private void updateStatisticsSaved(String characteristics){
+        int index = findCharacteristics(characteristics);
+        if (index >=0){
+            myStatistics.get(index).setSaved((myStatistics.get(index).getSaved() + 1));
+        }
+    }
+
+    /**
+     * Setter method to set auditType
+     * @param auditType String
+     */
+
+    public void setAuditType(String auditType){
+        this.auditType = auditType;
+    }
+
+    /**
+     * Getter method to get auditType
+     * @return String
+     */
+    public String getAuditType(){
+        if (this.auditType.isEmpty())
+            return "Unspecified";
+        return this.auditType;
+    }
+
+    public void setResultPath(String path){
+        this.resultPath = path;
+    }
+
+    /**
+     * to string method of Audit Class
+     * @return String
+     */
+
+    public String toString(){
+        String str = null;
+        double avgAge = statistics.getSumAge()/statistics.getPersonCount();
+        String avgAgeStr = String.valueOf(avgAge);
+        int indexOfDot = avgAgeStr.indexOf(".");
+        str = "======================================\n";
+        str = str + "# "+this.auditType+" Audit\n";
+        str = str + "======================================\n";
+        str = str + "- % SAVED AFTER "+this.runs+" RUNS\n";
+
+        for (Statistics x : myStatistics){
+            str = str + x.toString()+"\n";
+        }
+        str = str + "--\n";
+        if (this.runs == 0)
+            str = "no audit available";
+        else
+            str = str + "average age: "+avgAgeStr.substring(0,(indexOfDot+2));
+        return str;
+    }
+
+    /**
+     * print Statistics method of Audit class
+     */
+
+    public void printStatistics(){
+        characteristicsSortAsc();
+        survivalRatioSortDesc();
+
+        System.out.println(this.toString());
+
+    }
+
+    /**
+     * Method to save statistics into a file, if new filepath provided (-r) to be saved at new location else default location either user.log or result.log
+     * @param filePath new file path if provided (-r or -- results)
+     * @param consent user Consent to save data
+     */
+
+    public void printTofile(String filePath,boolean consent){
+
+        String fileName ="";
+
+        if (filePath.isEmpty()){
+            if (this.auditType.equalsIgnoreCase("user")){
+                fileName = "user.log";
+            }
+            else
+                fileName = "result.log";
+        }
+        else{
+            fileName = filePath;
+            int i = fileName.lastIndexOf("\\");
+            String directoryPath = fileName.substring(0,i);
+            File f = new File(directoryPath);
+            if (!f.isDirectory()){
+                System.out.println("Error: could not print results. Target directory does not exist.");
+                System.exit(0);
+            }
+        }
+
+        if (consent) {
+            PrintWriter outPutStream = null;
+            try{
+                outPutStream = new PrintWriter(new FileOutputStream(fileName,true));
+            }catch (FileNotFoundException e){
+                System.exit(0);
+            }
+            characteristicsSortAsc();
+            survivalRatioSortDesc();
+
+            outPutStream.println(this.toString());
+            outPutStream.close();
+        }
+    }
+
+    /**
+     * Sorting method of characteristics to alphabetical order
+     */
+    private void characteristicsSortAsc(){
+        Statistics temp;
+        boolean sorted = false;
+        while(!sorted){
+            sorted = true;
+            for (int i=0; i<myStatistics.size()-1; i++){
+                if (myStatistics.get(i).getCharacteristics().compareToIgnoreCase(myStatistics.get(i+1).getCharacteristics()) > 0){
+                    temp = myStatistics.get(i);
+                    myStatistics.set(i,myStatistics.get(i+1));
+                    myStatistics.set(i+1,temp);
+                    sorted = false;
+                }
+            }
+        }
+    }
+
+    /**
+     * private method to sort survival ratio to descending order
+     */
+
+    private void survivalRatioSortDesc(){
+        Statistics temp;
+        boolean sorted = false;
+        while(!sorted){
+            sorted = true;
+            for (int i = 0; i< myStatistics.size()-1; i++){
+                if (myStatistics.get(i).getSurvivalRatio() < myStatistics.get(i+1).getSurvivalRatio()) {
+                    temp = myStatistics.get(i);
+                    myStatistics.set(i,myStatistics.get(i+1));
+                    myStatistics.set(i+1,temp);
+                    sorted = false;
+                }
+            }
+        }
+    }
+}
+============================================
+src/Character.java
+09:44:16_Tuesday_30_June_2020
+============================================
+package ethicalengine;
+
+/**
+ * @author Jony Saha
+ * @author jonys,Student ID: 1134030
+ * @version 2.0
+ */
+
+public abstract class Character {
+
+    private int age;
+    private Gender gender;
+    private BodyType bodyType;
+    public static final int DEFAULT_AGE = 25;
+
+
+    /**
+     * default constructor to set values to all default
+     */
+    public Character() {
+        this.age = DEFAULT_AGE;
+        this.gender = Gender.UNKNOWN;
+        this.bodyType = BodyType.UNSPECIFIED;
+    }
+
+    /**
+     *
+     * Constructor to set age,gender,bodyType
+     * @param age Age
+     * @param gender Gender
+     * @param bodyType BodyType
+     */
+
+    public Character(int age, Gender gender, BodyType bodyType){
+        if (age < 0)
+            this.age = DEFAULT_AGE;
+        else
+            this.age = age;
+        this.gender = gender;
+        this.bodyType = bodyType;
+    }
+
+    /**
+     *
+     * Copy Constructor
+     * @param otherCharacter Character
+     */
+    public Character(Character otherCharacter){
+        if(otherCharacter != null){
+            this.age = otherCharacter.age;
+            this.gender = otherCharacter.gender;
+            this.bodyType = otherCharacter.bodyType;
+        }
+    }
+
+    /**
+     * Getter Methods to return age
+     * @return age
+     */
+    public int getAge() {
+        return this.age;
+    }
+    /**
+     * Getter Methods to return Gender Enum
+     * @return Gender
+     */
+    public Gender getGender() {
+        return this.gender;
+    }
+    /**
+     * Getter Methods to return bodyType
+     * @return BodyType
+     */
+    public BodyType getBodyType() {
+        return this.bodyType;
+    }
+
+    /**
+     *
+     * Setter methods to set age, age is a class invariant, if less than zero should set to a default value
+     * @param age Age
+     */
+    public void setAge(int age){
+        if (age < 0)
+            this.age = DEFAULT_AGE;
+        else
+            this.age = age;
+    }
+    /**
+     *
+     * Setter methods to set Gender
+     * @param gender Gender
+     */
+    public void setGender(Gender gender) {
+        this.gender = gender;
+    }
+    /**
+     *
+     * Setter methods to set bodyType
+     * @param bodyType Bodytype
+     */
+    public void setBodyType(BodyType bodyType) {
+        this.bodyType = bodyType;
+    }
+
+    /**
+     *
+     * Enumeration type Gender (Female,Male,Unknown)
+     */
+
+    public enum Gender {
+       FEMALE(0),
+       MALE(1),
+        UNKNOWN(2);
+
+       private int genderNum;
+
+       Gender(int num){
+           this.genderNum = num;
+       }
+       public int getNum(){
+           return this.genderNum;
+       }
+
+        /**
+         * Get Gender type
+         * @param passNum Numbers
+         * @return Gender
+         */
+
+       public static Gender getGender(int passNum){
+           Gender gender = null;
+           for (Gender tempGender: Gender.values()){
+               if (tempGender.getNum() == passNum)
+                   gender = tempGender;
+           }
+           return gender;
+       }
+
+        /**
+         *
+         * @param gender String
+         * @return Gender
+         */
+        public static Gender getGender(String gender){
+           Gender myGender = null;
+            for (Gender tempGender: Gender.values()){
+                if (tempGender.name().equalsIgnoreCase(gender))
+                    myGender = tempGender;
+            }
+            return  myGender;
+        }
+
+   }
+    /**
+     *
+     * Enumeration type AgeCategory (Baby,Child,Adult,Senior)
+     */
+    public enum AgeCategory {
+
+        BABY(0),
+        CHILD(1),
+        ADULT(2),
+        SENIOR(3);
+
+        public int age_c;
+
+        /**
+         *
+         * @param age_c int
+         */
+
+        AgeCategory(int age_c){
+            this.age_c = age_c;
+        }
+        public int getAge_c(){
+            return this.age_c;
+        }
+
+        /**
+         * Return ageCategory from age
+         * @param age int
+         * @return AgeCategory
+         */
+        public static AgeCategory getAgeCategory(int age){
+            AgeCategory ageCategory = null;
+
+            if (age == 0 || age > 0 && age < 4 || age == 4)
+                ageCategory = AgeCategory.BABY;
+            else if (age >=5 && age <=16 )
+                ageCategory =  AgeCategory.CHILD;
+            else if (age >=17 && age <=68 )
+                ageCategory =  AgeCategory.ADULT;
+            else
+                ageCategory =  AgeCategory.SENIOR;
+
+            return ageCategory;
+        }
+    }
+
+    /**
+     *
+     * Enumeration type BodyType (Average,Athletic,Overweight,Unspecified)
+     */
+
+    public enum BodyType {
+
+        AVERAGE(0),
+        ATHLETIC(1),
+        OVERWEIGHT(2),
+        UNSPECIFIED(3);
+
+        public int bdt;
+
+        /**
+         *
+         * @param bdt int
+         */
+
+        BodyType(int bdt){
+            this.bdt = bdt;
+        }
+        public int getBdt(){
+            return this.bdt;
+        }
+
+        /**
+         *
+         * @param bdt int
+         * @return BodyType
+         */
+
+        public static BodyType getBodyType(int bdt){
+            BodyType bodyType = null;
+            for (BodyType temp: BodyType.values()){
+                if (temp.getBdt() == bdt)
+                    bodyType = temp;
+            }
+            return bodyType;
+        }
+
+        /**
+         *
+         * @param bodyType String
+         * @return BodyType
+         */
+        public static BodyType getBdt(String bodyType){
+            BodyType myBodyType = null;
+            for (BodyType tempBdt: BodyType.values()){
+                if (tempBdt.name().equalsIgnoreCase(bodyType))
+                    myBodyType = tempBdt;
+            }
+            return myBodyType;
+        }
+
+    }
+}
